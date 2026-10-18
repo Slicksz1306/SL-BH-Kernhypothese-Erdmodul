@@ -1,4 +1,4 @@
-# Observed and tested environment, 2026-10-07; not a wheel/hash supply-chain lock.
+# Foundation runtime notes, 2026-10-07; this file is not the collider wheel lock.
 # No package was installed or upgraded during this implementation.
 # CPython 3.12.10, Windows AMD64
 numpy==2.5.2
@@ -6,5 +6,7 @@ numpy==2.5.2
 # License-Expression: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
 # Existing binary distribution may bundle native libraries; not a fresh security audit.
 # unittest/decimal/fractions/hashlib/json/pathlib/dataclasses: Python standard library.
-# jsonschema, pytest, setuptools, build, ruff, mypy and pyright are not required
-# for source-tree use and were not installed.
+# The collider layer uses the separate requirements-collider.lock.txt. That file
+# pins jsonschema and every transitive dependency with --require-hashes; it is
+# the reproducible CI/install input for P05-P07 and is intentionally not mixed
+# into the P01-P04 Foundation runtime notes below.
