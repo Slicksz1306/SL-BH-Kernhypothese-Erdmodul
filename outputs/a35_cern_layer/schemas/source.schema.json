@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:sl-collider:source:1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "source_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+    },
+    "source_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "url": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "actual_url": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "retrieved_at": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "media_type": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "byte_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 52428800
+    },
+    "collaboration": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "analysis_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+    },
+    "published_at": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "publication_date_precision": {
+      "enum": [
+        "DAY",
+        "MONTH",
+        "YEAR",
+        "UNKNOWN"
+      ]
+    },
+    "arxiv_version": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "journal_ref": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "doi": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "inspire_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "hepdata_record_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "hepdata_version": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "table_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 32768
+      },
+      "minItems": 0,
+      "maxItems": 1000000
+    },
+    "source_relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+          },
+          "source_version": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          }
+        },
+        "required": [
+          "source_id",
+          "source_version",
+          "sha256",
+          "locator"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "maxItems": 1000000
+    },
+    "historical_evidence": {
+      "anyOf": [
+        {
+          "type": "object",
+          "properties": {
+            "source_id": {
+              "type": "string",
+              "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+            },
+            "source_version": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32768
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "locator": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 32768
+            }
+          },
+          "required": [
+            "source_id",
+            "source_version",
+            "sha256",
+            "locator"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "purpose": {
+      "enum": [
+        "RESEARCH",
+        "TEST_FIXTURE"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "source_id",
+    "source_version",
+    "title",
+    "url",
+    "actual_url",
+    "retrieved_at",
+    "sha256",
+    "media_type",
+    "byte_count",
+    "collaboration",
+    "analysis_id",
+    "published_at",
+    "publication_date_precision",
+    "arxiv_version",
+    "journal_ref",
+    "doi",
+    "inspire_id",
+    "hepdata_record_id",
+    "hepdata_version",
+    "table_ids",
+    "source_relationships",
+    "historical_evidence",
+    "purpose"
+  ],
+  "additionalProperties": false
+}

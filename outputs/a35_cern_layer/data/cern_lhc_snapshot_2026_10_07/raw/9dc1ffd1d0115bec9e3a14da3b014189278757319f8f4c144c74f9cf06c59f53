@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search for quantum black holes in lepton+jet final states using proton-proton collisions at $\sqrt{s}=13.6$ TeV with the ATLAS detector
+            </title>
+        <link rel="icon" type="image/png" href="https://atlaspo.cern.ch/public/support/images/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://atlaspo.cern.ch/public/support/figurepages.css">
+        <link rel="stylesheet" href="https://atlaspo.cern.ch/public/support/mathjax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?version=4.8.0&features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script>window.MathJax = {tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}};</script>
+
+        <!-- Navbar -->
+        <div class="w3-top header_menu" id="header_menu">
+            <nav class="navigation_header">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#" class="twikiLink">ATLAS Web Sites <i class="fa-solid fa-circle-arrow-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href=" https://atlas.cern/" class="twikiLink">ATLAS Public Site</a>
+                            <a href="https://cern.ch/atlas-collaboration" class="twikiLink">ATLAS Collaboration Site <i class="fa-solid fa-lock"></i></a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="twikiLink">Physics Results <i class="fa-solid fa-circle-arrow-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/BPhysPublicResults" class="twikiLink">B Physics and Light States</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/StandardModelPublicResults" class="twikiLink">Standard Model Physics</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TopPublicResults" class="twikiLink">Top Physics</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/viewauth/AtlasPublic/HiggsAndDiHiggsPublicResults" class="twikiLink">Higgs and Di-Higgs Physics</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/SearchesPublicResults" class="twikiLink">Searches</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/HeavyIonsPublicResults" class="twikiLink">Heavy Ions Physics</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/MCPublicResults" class="twikiLink">Physics Modelling</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/UpgradePhysicsStudies" class="twikiLink">Upgrade Physics Studies</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="twikiLink">Performance Results <i class="fa-solid fa-circle-arrow-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/InDetTrackingPerformanceApprovedPlots" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Tracking</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/ElectronGammaPublicCollisionResults" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Electron and Photon</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/MuonPublicResults" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Muon</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/TauPublicResults" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Tau</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/JetEtmissPublicResults" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Jets and Etmiss</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/FlavourTaggingPublicResultsCollisionData" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Flavour Tagging</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/SimulationPublicResults" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Simulation</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="twikiLink">Detector <i class="fa-solid fa-circle-arrow-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/WebHome#Detector" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Detector Systems, Trigger, Luminosity, Data Taking</a>
+                            <a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/WebHome#Upgrade_Projects_and_Physics_Pro" class="twikiLink twikiCurrentWebHomeLink twikiAnchorLink">Upgrade</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Sidebar -->
+        <nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar" style="z-index: 1;">
+            <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-blue w3-hide-large" title="Close Menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <h4 class="w3-bar-item"><img class="sidebar_image" src="https://atlaspo.cern.ch/public/support/images/ATLAS-logo-transparent.png"></h4>
+            <a class="w3-bar-item w3-button w3-hover-blue side_bar_link" href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic">
+                <i class="fa-solid fa-book"></i>
+                Public Results<br>
+                <span style="font-size: small;">(including search fields)</span>
+            </a>
+            <a class="w3-bar-item w3-button w3-hover-blue side_bar_link" href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/Publications">
+                <i class="fa-solid fa-book"></i>
+                Papers
+            </a>
+            <a class="w3-bar-item w3-button w3-hover-blue side_bar_link" href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/CONFnotes">
+                <i class="fa-solid fa-book"></i>
+                CONF Notes
+            </a>
+            <a class="w3-bar-item w3-button w3-hover-blue side_bar_link" href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/PUBnotes">
+                <i class="fa-solid fa-book"></i>
+                PUB Notes
+            </a>
+            <a class="w3-bar-item w3-button w3-hover-blue side_bar_link" href="https://atlaspo.cern.ch/public/event_display/">
+                <i class="fa-solid fa-book"></i>
+                Event Displays
+            </a>
+            <a class="w3-bar-item w3-button w3-hover-blue side_bar_link" href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic/WebHome#Papers_Conference_notes_Public_n" target="_blank">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Search
+            </a>
+        </nav>
+
+        <!-- Overlay effect when opening sidebar on small screens -->
+        <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+        <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+        <div class="w3-main main_page_content">
+
+
+            <div id="top" class="w3-row">
+                <div class="w3-container title_section">
+
+                
+                    <!-- TITLE -->
+                    <h2 class="w3-text-teal title_h2">
+                        
+                            Search for quantum black holes in lepton+jet final states using proton-proton collisions at $\sqrt{s}=13.6$ TeV with the ATLAS detector
+                        
+                    </h2>
+                </div>
+                <!-- ABSTRACT -->
+                <div class="w3-container abstract_section" style="width: 100%;">
+                    <p style="font-size: math;">
+                        
+                            A search for quantum black holes in electron+jet or muon+jet final states with high invariant mass is performed. The analysis uses data from $\sqrt{s}=13.6~\textrm{TeV}$ $pp$ collisions recorded by the ATLAS detector between 2022 and 2024 during Run 3 of the Large Hadron Collider, corresponding to an integrated luminosity of $164~\mathrm{fb}^{-1}$. This search is strongly motivated by a dramatic increase of the production cross-section by up to an order of magnitude for the highest masses considered, thanks to the small increase of $0.6~\textrm{TeV}$ in centre-of-mass energy between Run 2 and Run 3. No significant excess above the Standard Model background is observed, and 95% CL upper limits are set on the production cross-section times branching ratio in several benchmark models, reaching a mass scale of $9.4~\textrm{TeV}$. These represent the strongest exclusion limits to date on quantum black hole production.
+                        
+                    </p>
+                </div>
+
+                <!-- JOURNAL SUB DATE -->
+                
+                <p class="centered_text">
+                    21 April 2026
+                </p>
+                
+                <!-- CONTACTS -->
+                <p>
+                    <h6>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <span>Contact: <a href="mailto:atlas-phys-exotics-conveners@cern.ch">Exotics conveners</a></span>
+                        
+                        <span style="font-size: small;">
+                            <a target="_blank" href="https://atlas-glance.cern.ch/atlas/analysis/papers/details.php?ref_code=EXOT-2024-32">internal</a>
+                        </span>
+                        
+                        </div>
+                    </h6>
+                </p>
+            </div>
+            <!-- LINKS SECTION -->
+            <div class="w3-row links_section">
+                <!-- JOURNAL LINK -->
+                
+                    <p class="centered_text">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0370269326007008"><b>Phys. Lett. B 881 (2026) 140849</b></a>
+                    </p>
+                
+                <!-- ERRATUM -->
+                
+                <!-- 1st ROW -->
+                <p class="centered_text">
+                    
+                        e-print <a href="https://arxiv.org/abs/2604.19495" id="e-print_link"><b>arXiv:2604.19495</b></a>
+                        <a href="https://arxiv.org/pdf/2604.19495" id="arxiv_pdf_link"><b> - pdf from arXiv</b></a>
+                    
+                    
+                        
+                        - <a href="https://atlas.cern/Updates/Briefing/Quantum-Black-Holes-Run3" id="physics_briefing_link"><b>Physics Briefing</b></a>
+                        
+                    
+                    
+                </p>
+                <!-- 2nd ROW -->
+                    
+                        <p class="centered_text">
+                            <a href="https://inspirehep.net/literature/3147718" id="inspire_link"><b>Inspire record</b></a>
+                        </p>
+                    
+                <!-- 3rd ROW -->
+                
+                <p class="centered_text">
+                    <a href="https://www.hepdata.net/record/ins3147718"><b>Data points</b></a>
+                </p>
+                
+                    
+                <!-- 4th ROW (anchors) -->
+                <p class="centered_text"> 
+                    <a href="#figures_header">Figures</a>  |   
+                    <a href="#tables_header">Tables</a>  |  
+                    <a href="#auxiliary_header">Auxiliary Material</a>  
+                    
+                </p>
+            </div>
+            
+
+            <!-- FIGURES -->
+            <div class="section_div" id="figures_div">
+                <!-- FIGURES HEADER -->
+                <div class="w3-row">
+                    <div class="w3-container section_title">
+                        <p id="figures_header" class="left_text material_header" onclick="hide_show('figures');"><b>Figures</b> <i class="fa-solid fa-circle-up show_hide_arrows"></i></p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 01a</b></p>
+                            <br>
+                            Invariant mass of the lepton&ndash;jet pair in the W+ jets validation region for (a) the electron channel and (b) the muon channel. The data-to-background ratio is shown in the bottom panels, and hatched bands indicate the total statistical and systematic uncertainty. In (a), "Others" denotes subdominant backgrounds including top and diboson processes. The MC contributions are normalised based on their expected cross-section, prior to the likelihood fit.
+
+                            <br>
+                            <br>
+                            <a href="fig_01a.png">png (125kB)</a>&nbsp;
+                            <a href="fig_01a.pdf">pdf (20kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_01a.png">
+                                <img src=".thumb_fig_01a.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 01b</b></p>
+                            <br>
+                            Invariant mass of the lepton&ndash;jet pair in the W+ jets validation region for (a) the electron channel and (b) the muon channel. The data-to-background ratio is shown in the bottom panels, and hatched bands indicate the total statistical and systematic uncertainty. In (a), "Others" denotes subdominant backgrounds including top and diboson processes. The MC contributions are normalised based on their expected cross-section, prior to the likelihood fit.
+
+                            <br>
+                            <br>
+                            <a href="fig_01b.png">png (126kB)</a>&nbsp;
+                            <a href="fig_01b.pdf">pdf (20kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_01b.png">
+                                <img src=".thumb_fig_01b.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 02</b></p>
+                            <br>
+                            Invariant mass of the lepton&ndash;jet pair in the fakes validation region. The data-to-background ratio is shown in the bottom panel, and hatched bands indicate the total statistical and systematic uncertainty. "Others" denotes subdominant backgrounds including top and diboson processes. The MC contributions are normalised based on their expected cross-section, prior to the likelihood fit.
+
+                            <br>
+                            <br>
+                            <a href="fig_02.png">png (137kB)</a>&nbsp;
+                            <a href="fig_02.pdf">pdf (20kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_02.png">
+                                <img src=".thumb_fig_02.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 03a</b></p>
+                            <br>
+                            Distribution of the lepton+jet invariant mass for events passing the full signal selection for (a) the electron channel and (b) the muon channel. Benchmark signals for the RS and ADD models with n=1,6 extra dimensions at M<sub>th</sub>=8,10&nbsp;TeV, respectively, are scaled by a factor of 20 for presentation purposes and overlaid on the total background estimate. The uncertainty band includes the statistical and systematic uncertainties. The highest-mass data events observed in the last bin have m<sub>&#8467;j</sub> values of 5.3&nbsp;(5.0, 5.1, 5.5)&nbsp;TeV in the electron (muon) channel, and are plotted at the bin&apos;s centre. In (a), "Others" denotes subdominant backgrounds including top and diboson processes. The MC contributions are normalised based on the likelihood fit.
+
+                            <br>
+                            <br>
+                            <a href="fig_03a.png">png (149kB)</a>&nbsp;
+                            <a href="fig_03a.pdf">pdf (56kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_03a.png">
+                                <img src=".thumb_fig_03a.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 03b</b></p>
+                            <br>
+                            Distribution of the lepton+jet invariant mass for events passing the full signal selection for (a) the electron channel and (b) the muon channel. Benchmark signals for the RS and ADD models with n=1,6 extra dimensions at M<sub>th</sub>=8,10&nbsp;TeV, respectively, are scaled by a factor of 20 for presentation purposes and overlaid on the total background estimate. The uncertainty band includes the statistical and systematic uncertainties. The highest-mass data events observed in the last bin have m<sub>&#8467;j</sub> values of 5.3&nbsp;(5.0, 5.1, 5.5)&nbsp;TeV in the electron (muon) channel, and are plotted at the bin&apos;s centre. In (a), "Others" denotes subdominant backgrounds including top and diboson processes. The MC contributions are normalised based on the likelihood fit.
+
+                            <br>
+                            <br>
+                            <a href="fig_03b.png">png (137kB)</a>&nbsp;
+                            <a href="fig_03b.pdf">pdf (56kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_03b.png">
+                                <img src=".thumb_fig_03b.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 04a</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching ratio of quantum black holes in the ADD model with n=6 extra dimensions for the (a) electron and (b) muon channels, and in the RS model with n=1 extra dimension for the (c) electron and (d) muon channels. The &plusmn;1&sigma; and &plusmn;2&sigma; uncertainty bands around the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+
+                            <br>
+                            <br>
+                            <a href="fig_04a.png">png (87kB)</a>&nbsp;
+                            <a href="fig_04a.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_04a.png">
+                                <img src=".thumb_fig_04a.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 04b</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching ratio of quantum black holes in the ADD model with n=6 extra dimensions for the (a) electron and (b) muon channels, and in the RS model with n=1 extra dimension for the (c) electron and (d) muon channels. The &plusmn;1&sigma; and &plusmn;2&sigma; uncertainty bands around the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+
+                            <br>
+                            <br>
+                            <a href="fig_04b.png">png (88kB)</a>&nbsp;
+                            <a href="fig_04b.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_04b.png">
+                                <img src=".thumb_fig_04b.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 04c</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching ratio of quantum black holes in the ADD model with n=6 extra dimensions for the (a) electron and (b) muon channels, and in the RS model with n=1 extra dimension for the (c) electron and (d) muon channels. The &plusmn;1&sigma; and &plusmn;2&sigma; uncertainty bands around the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+                            <br>
+                            <br>
+                            <a href="fig_04c.png">png (85kB)</a>&nbsp;
+                            <a href="fig_04c.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_04c.png">
+                                <img src=".thumb_fig_04c.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    <!-- FIGURE ROW -->
+                <div class="w3-row figures_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 04d</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching ratio of quantum black holes in the ADD model with n=6 extra dimensions for the (a) electron and (b) muon channels, and in the RS model with n=1 extra dimension for the (c) electron and (d) muon channels. The &plusmn;1&sigma; and &plusmn;2&sigma; uncertainty bands around the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+                            <br>
+                            <br>
+                            <a href="fig_04d.png">png (86kB)</a>&nbsp;
+                            <a href="fig_04d.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="fig_04d.png">
+                                <img src=".thumb_fig_04d.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    
+
+            </div>
+
+
+
+
+
+
+            <!-- TABLES -->
+            <div class="section_div" id="tables_div">
+                <!-- TABLES HEADER -->
+                <div class="w3-row">
+                    <div class="w3-container section_title">
+                        <p id="tables_header" class="left_text material_header" onclick="hide_show('tables');"><b>Tables</b> <i class="fa-solid fa-circle-up show_hide_arrows"></i></p>
+                    </div>
+                </div>
+
+
+    
+                <div class="w3-row tables_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Table 01</b></p>
+                            <br>
+                            Analysis regions definitions. The control (validation) regions used to estimate the leading backgrounds, fake electrons and V+jets, are indicated. The label ej (&mu;j) refers to the electron (muon) channel. The &quot;signal&quot; subscript denotes the different lepton and jet signal definitions in the text. The dash (&ndash;-) indicates a selection criterion not applied, where N/A indicates a criterion cannot be applied, in regions which require exactly one signal lepton. Selections on m<sub>&#8467;j</sub> and &Sscr;(p<sup>miss</sup><sub>T</sub>) orthogonalise analysis regions from one another. The fCR and fVR are only relevant in the context of the electron channel. The m<sub>&#8467;&#8467;</sub> criterion in the fCR is only applied in the presence of a second electron.
+                            <br>
+                            <br>
+                            <a href="tab_01.png">png (27kB)</a>&nbsp;
+                            <a href="tab_01.pdf">pdf (70kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="tab_01.png">
+                                <img src=".thumb_tab_01.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    
+                <div class="w3-row tables_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Table 02</b></p>
+                            <br>
+                            Expected and observed exclusion limits at 95&percnt; confidence level on the QBH mass threshold M<sub>th</sub> for RS and ADD models with different number of extra dimensions n, in the electron and muon channels, using Run&nbsp;3 data at a centre-of-mass energy of 13.6 TeV.
+                            <br>
+                            <br>
+                            <a href="tab_02.png">png (18kB)</a>&nbsp;
+                            <a href="tab_02.pdf">pdf (56kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="tab_02.png">
+                                <img src=".thumb_tab_02.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+    
+
+            </div>
+
+
+
+
+
+            <!-- AUXILIARY MATERIALS -->
+            <div class="section_div" id="auxiliary_div">
+                <!-- AUXILIARY MATERIALS HEADER -->
+                <div class="w3-row">
+                    <div class="w3-container section_title">
+                        <p id="auxiliary_header" class="left_text material_header" onclick="hide_show('auxiliary');"><b>Auxiliary material</b> <i class="fa-solid fa-circle-up show_hide_arrows"></i></p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 01a</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching fraction of quantum black holes in the ADD model with n=4 extra dimensions for (a) the electron and (b) the muon channels, and with n=2 extra dimensions for (c) the electron and (d) the muon channels. The &plusmn;1&sigma;, 2&sigma; uncertainty bands on the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+
+                            <br>
+                            <br>
+                            <a href="figaux_01a.png">png (86kB)</a>&nbsp;
+                            <a href="figaux_01a.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_01a.png">
+                                <img src=".thumb_figaux_01a.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 01b</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching fraction of quantum black holes in the ADD model with n=4 extra dimensions for (a) the electron and (b) the muon channels, and with n=2 extra dimensions for (c) the electron and (d) the muon channels. The &plusmn;1&sigma;, 2&sigma; uncertainty bands on the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+                            <br>
+                            <br>
+                            <a href="figaux_01b.png">png (86kB)</a>&nbsp;
+                            <a href="figaux_01b.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_01b.png">
+                                <img src=".thumb_figaux_01b.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 01c</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching fraction of quantum black holes in the ADD model with n=4 extra dimensions for (a) the electron and (b) the muon channels, and with n=2 extra dimensions for (c) the electron and (d) the muon channels. The &plusmn;1&sigma;, 2&sigma; uncertainty bands on the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+                            <br>
+                            <br>
+                            <a href="figaux_01c.png">png (83kB)</a>&nbsp;
+                            <a href="figaux_01c.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_01c.png">
+                                <img src=".thumb_figaux_01c.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 01d</b></p>
+                            <br>
+                            Exclusion limits at 95&percnt; confidence level (CL) on the sum of the production cross-section times branching fraction of quantum black holes in the ADD model with n=4 extra dimensions for (a) the electron and (b) the muon channels, and with n=2 extra dimensions for (c) the electron and (d) the muon channels. The &plusmn;1&sigma;, 2&sigma; uncertainty bands on the expected limit are shown. The central theoretical values are overlaid. The summation subscript qq&apos; corresponds to the three relevant production channels of the quantum black hole. The branching fraction used is per lepton flavour.
+                            <br>
+                            <br>
+                            <a href="figaux_01d.png">png (83kB)</a>&nbsp;
+                            <a href="figaux_01d.pdf">pdf (15kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_01d.png">
+                                <img src=".thumb_figaux_01d.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 02a</b></p>
+                            <br>
+                            Distribution of the lepton+jet invariant mass for events passing the full signal selection for (a) the electron channel and (b) the muon channel. Benchmark signals for the RS, ADD models with n=1,6 extra dimensions at M<sub>th</sub>=8,10&nbsp;TeV, respectively, are scaled by a factor of 20 for presentation purposes and overlaid on top of the total background estimate. The highest-mass data event is observed at 5.3&nbsp;(5.5)&nbsp;TeV in the electron (muon) channel. The bins are chosen to be 0.5&nbsp;TeV-wide solely to reflect the different shapes of the electron against the muon channel and are different from the bin width of choice presented in the main text, used in the fit and limit-setting. In (a), &quot;Others&quot; denote subdominant backgrounds including top and diboson processes. The MC contributions are normalised based on the likelihood fit.
+                            <br>
+                            <br>
+                            <a href="figaux_02a.png">png (118kB)</a>&nbsp;
+                            <a href="figaux_02a.pdf">pdf (17kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_02a.png">
+                                <img src=".thumb_figaux_02a.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 02b</b></p>
+                            <br>
+                            Distribution of the lepton+jet invariant mass for events passing the full signal selection for (a) the electron channel and (b) the muon channel. Benchmark signals for the RS, ADD models with n=1,6 extra dimensions at M<sub>th</sub>=8,10&nbsp;TeV, respectively, are scaled by a factor of 20 for presentation purposes and overlaid on top of the total background estimate. The highest-mass data event is observed at 5.3&nbsp;(5.5)&nbsp;TeV in the electron (muon) channel. The bins are chosen to be 0.5&nbsp;TeV-wide solely to reflect the different shapes of the electron against the muon channel and are different from the bin width of choice presented in the main text, used in the fit and limit-setting. In (a), &quot;Others&quot; denote subdominant backgrounds including top and diboson processes. The MC contributions are normalised based on the likelihood fit.
+                            <br>
+                            <br>
+                            <a href="figaux_02b.png">png (125kB)</a>&nbsp;
+                            <a href="figaux_02b.pdf">pdf (19kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_02b.png">
+                                <img src=".thumb_figaux_02b.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 03</b></p>
+                            <br>
+                            Summed production cross sections times branching fractions of QBHs at different threshold masses, M<sub>th</sub>, for the ADD-model with n=6 extra dimension. The colours indicate the leading quantum states of the QBH that can decay to a &#8467;j final state. Solid and dashed lines indicate the two &radic;s values of the LHC centre-of-mass energy, 13&nbsp;TeV and 13.6&nbsp;TeV for Run&nbsp;2 and Run&nbsp;3, respectively. The bottom panel shows the relative increase [&percnt;] in cross section times branching fraction, calculated as the difference between the Run&nbsp;3 and Run&nbsp;2 values, divided by the Run&nbsp;2 value. This represents the gain due to the higher &radic;s. The behaviour of the RS model (not shown here) is consistent. These values are computed using the QBHv3.02 event generator&nbsp;.
+                            <br>
+                            <br>
+                            <a href="figaux_03.png">png (184kB)</a>&nbsp;
+                            <a href="figaux_03.pdf">pdf (23kB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_03.png">
+                                <img src=".thumb_figaux_03.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 04</b></p>
+                            <br>
+                            Event data visualisation of an event produced in proton&ndash;proton collisions at a centre-of-mass energy of 13.6&nbsp;TeV and recorded by the ATLAS detector on 17 September 2024 (Run 484754, Event 968132624). In this event, a high-p<sub>T</sub> electron is produced against a hard, small-R jet. The image displays two views of the same event, as recorded by the ATLAS detector. The main figure shows a cut-out 3D view of the ATLAS detector where different sectors and sub-detectors have been removed for visualisation purposes. Starting from the centre of the ATLAS detector, tracks of charged particles with transverse momentum greater than 1.20&nbsp;GeV as reconstructed in the Inner Detector are shown as orange lines. The energy deposits greater than 200&nbsp;MeV in the LAr and Tile calorimeters are shown as green/cyan and yellow/orange boxes, respectively. The reconstructed particle jet is visualised as a semi-transparent yellow cone. The image also shows the reconstructed track of the electron (green line) and the associated energy deposit in the electromagnetic calorimeter (green/teal boxes). The inlay on the left shows the same event and objects projected on the transversal plane; starting from the centre, the view shows the hits in the Pixel (white dots), SCT (yellow), and TRT (white/red) detectors, as well as the energy deposits greater than 200&nbsp;MeV in the barrel LAr and Tile, as well as in a sector of the LAr EMEC calorimeter in the endcap region (green/cyan and yellow/orange boxes, respectively) and the reconstructed particle jet (yellow cone); the image also shows the reconstructed track of the electron (green line). This event is the highest-mass candidate in the electron+jet channel, with m<sub>ej</sub> = 5.3&nbsp;TeV. The electron has (p<sub>T</sub>, &eta;, &phi;) = (1.2&nbsp;TeV, 1.55, -1.31) and the jet has (p<sub>T</sub>, &eta;, &phi;) = (1.2&nbsp;TeV, -1.29, 1.92), with &Delta;&phi;(e, j) = 3.05 and &Delta;&eta;(e, j) = 2.84.
+                            <br>
+                            <br>
+                            <a href="figaux_04.png">png (3MB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_04.png">
+                                <img src=".thumb_figaux_04.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+                <!-- AUXILIARY MATERIAL ROW -->
+                <div class="w3-row auxiliary_section section_row">
+                    <div class="w3-threequarter w3-container">
+                        <p class="left_text">
+                            <p class="image_title"><b>Figure 05</b></p>
+                            <br>
+                            Event data visualisation of an event produced in proton&ndash;proton collisions at a centre-of-mass energy of 13.6&nbsp;TeV and recorded by the ATLAS detector on 4 August 2024 (Run 481638, Event 696395260). In this event, a high-p<sub>T</sub> muon is produced against a hard, small-R jet. The image displays two views of the same event, as recorded by the ATLAS detector. The main figure shows a cut-out 3D view of the ATLAS detector where different sectors and sub-detectors have been removed for visualisation purposes. Starting from the centre of the ATLAS detector, tracks of charged particles with transverse momentum greater than 1.20&nbsp;GeV as reconstructed in the Inner Detector are shown as orange lines. The energy deposits greater than 200&nbsp;MeV in the LAr and Tile calorimeters are shown as green/cyan and yellow/orange boxes, respectively. The reconstructed particle jet is visualised as a semi-transparent yellow cone. The image also shows the tracks of a reconstructed muon (red line), the muon chambers associated with it in the New Small Wheel (grey) and TGC and MDT chambers in the endcap region (purple and green boxes) and the related measurements (green lines within the blue boxes). The inlay on the right shows the same event and objects projected on the transversal plane; starting from the centre, the view shows the hits in the Pixel (white dots), SCT (yellow), and TRT (white/red) detectors, as well as the energy deposits greater than 200&nbsp;MeV in the barrel LAr and Tile calorimeters (green/cyan and yellow/orange boxes, respectively) and the reconstructed particle jet (yellow cone); the image also shows the track of charged particles with transverse momentum greater than 1.20&nbsp;GeV as reconstructed by the Inner Detector (orange lines) and the reconstructed tracks of a muon (red line). This event is the highest-mass candidate in the muon+jet channel, with m<sub>&mu;j</sub> = 5.5&nbsp;TeV. The muon has (p<sub>T</sub>, &eta;, &phi;) = (5.2&nbsp;TeV, 1.33, 0.23) and the jet has (p<sub>T</sub>, &eta;, &phi;) = (1.2&nbsp;TeV, 0.39, -2.94), with &Delta;&phi;(&mu;, j) = 3.11 and &Delta;&eta;(&mu;, j) = 0.94.
+                            <br>
+                            <br>
+                            <a href="figaux_05.png">png (3MB)</a>&nbsp;
+                            </p>
+                    </div>
+                    <div class="w3-quarter w3-container">
+                        <p class="thumb_section">
+                            <a href="figaux_05.png">
+                                <img src=".thumb_figaux_05.png" class="thumb_image">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+
+    
+
+    
+
+            </div>
+
+
+
+
+
+
+
+            <!-- FOOTER -->
+            <footer id="myFooter">
+                <div class="w3-container w3-theme-l2 footer">
+                    <p>
+                        © 2026 CERN for the benefit of the ATLAS Collaboration.
+                        <br>
+                        <span class="footer_subsection">
+                            Reproduction of the article, figures and tables on this page is allowed as specified in the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">CC-BY-4.0</a> license.
+                            <br><br>
+                            2026-10-18 00:00:45
+                        </span>
+                    </p>
+                </div>
+            </footer>
+        </div>
+
+        <script>
+            // Get the Sidebar
+            var mySidebar = document.getElementById("mySidebar");
+            // Get the DIV with overlay effect
+            var overlayBg = document.getElementById("myOverlay");
+            // Toggle between showing and hiding the sidebar, and add overlay effect
+            function w3_open() {
+                if (mySidebar.style.display === 'block') {
+                    mySidebar.style.display = 'none';
+                    overlayBg.style.display = "none";
+                } else {
+                    mySidebar.style.display = 'block';
+                    overlayBg.style.display = "block";
+                }
+            }
+            // Close the sidebar with the close button
+            function w3_close() {
+                mySidebar.style.display = "none";
+                overlayBg.style.display = "none";
+            }
+
+            function hide_show(section){
+                var header = document.getElementById(section+"_header");
+                var elements = document.getElementsByClassName(section+"_section");
+                var show = false;
+                var text = "Tables";
+                if (section == 'figures'){
+                    text = "Figures";
+                } else if (section == 'auxiliary'){
+                    text = "Auxiliary material";
+                } else if (section == 'animated'){
+                    text = "Animated plots";
+                }
+                var w = window.innerWidth;
+                for (var i=0; i<elements.length; i++){
+                    if (elements[i].style.display == "flex" || elements[i].style.display == "" || elements[i].style.display == "block"){
+                        elements[i].style.display = "none";
+                        show = false
+                    }else{
+                        if (w <= 800){
+                            elements[i].style.display = "block";
+                        }else{
+                            elements[i].style.display = "flex";
+                        }
+                        show = true;
+                    }
+                }
+                if (show){
+                    header.innerHTML = '<b>'+text+'</b> <i class="fa-solid fa-circle-up show_hide_arrows"></i>'
+                }else{
+                    header.innerHTML = '<b>'+text+'</b> <i class="fa-solid fa-circle-down show_hide_arrows"></i>'
+                }
+            }
+
+            /*
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }*/
+
+            function toggleDropdown(id) {
+                var dropdown = document.getElementById(id);
+                if (dropdown.style.display === "none" || dropdown.style.display === "") {
+                    dropdown.style.display = "block";
+                } else {
+                    dropdown.style.display = "none";
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A35 foundation scalar QuantityRecord 1.0.0",
+  "$comment": "Local descriptive wire schema. Runtime uses the closed typed validator; units, ranges and exact arithmetic are additional semantic checks.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "quantity_id", "value", "unit", "kind", "definition", "domain_id", "provenance", "status", "uncertainty"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "quantity_id": {"$ref": "#/$defs/id"},
+    "value": {"anyOf": [{"$ref": "#/$defs/decimal"}, {"type": "null"}]},
+    "unit": {"type": "string", "minLength": 1},
+    "kind": {"type": "string", "minLength": 1},
+    "definition": {"type": "string", "minLength": 1},
+    "domain_id": {"$ref": "#/$defs/id"},
+    "provenance": {"type": "array", "items": {"$ref": "#/$defs/sourceRef"}},
+    "uncertainty": {"$ref": "#/$defs/uncertainty"},
+    "status": {"enum": ["KNOWN", "OPEN"]},
+    "open_reason": {"type": "string"},
+    "conversions": {"type": "array", "items": {"$ref": "#/$defs/conversion"}}
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "OPEN"}}},
+     "then": {"required": ["open_reason"], "properties": {"value": {"type": "null"}, "open_reason": {"minLength": 1}}},
+     "else": {"properties": {"value": {"$ref": "#/$defs/decimal"}}}}
+  ],
+  "$defs": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$", "not": {"pattern": "\\.\\."}},
+    "decimal": {"anyOf": [{"type": "integer"}, {"type": "string", "pattern": "^[+-]?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$"}]},
+    "sourceRef": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "source_version", "retrieved_at", "source_hash"],
+      "properties": {
+        "source_id": {"anyOf": [{"$ref": "#/$defs/id"}, {"const": ""}]},
+        "source_version": {"anyOf": [{"$ref": "#/$defs/id"}, {"const": ""}]},
+        "retrieved_at": {"type": "string"},
+        "source_hash": {"type": "string", "pattern": "^(?:[0-9a-f]{64})?$"},
+        "purpose": {"enum": ["RESEARCH", "TEST_FIXTURE"]}
+      }
+    },
+    "uncertainty": {
+      "type": "object", "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": {"enum": ["EXACT", "STDDEV", "VARIANCE", "UNKNOWN"]},
+        "value": {"anyOf": [{"$ref": "#/$defs/decimal"}, {"type": "null"}]},
+        "reason": {"type": "string"}
+      },
+      "allOf": [
+        {"if": {"properties": {"kind": {"enum": ["STDDEV", "VARIANCE"]}}},
+         "then": {"required": ["value"], "properties": {"value": {"$ref": "#/$defs/decimal"}}},
+         "else": {"properties": {"value": {"type": "null"}}}}
+      ]
+    },
+    "conversion": {
+      "type": "object", "additionalProperties": false,
+      "required": ["from_unit", "to_unit", "factor_numerator", "factor_denominator"],
+      "properties": {
+        "from_unit": {"type": "string"}, "to_unit": {"type": "string"},
+        "factor_numerator": {"type": "integer", "minimum": 1},
+        "factor_denominator": {"type": "integer", "minimum": 1}
+      }
+    },
+    "snapshotInfo": {
+      "type": "object", "additionalProperties": false,
+      "required": ["snapshot_id", "schema_version", "snapshot_date", "created_at"],
+      "properties": {
+        "snapshot_id": {"$ref": "#/$defs/id"}, "schema_version": {"const": "1.0.0"},
+        "snapshot_date": {"type": "string", "format": "date"},
+        "created_at": {"type": "string", "format": "date-time"}
+      }
+    }
+  }
+}

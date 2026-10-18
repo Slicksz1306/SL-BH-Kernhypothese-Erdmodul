@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:sl-collider:dataset:1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "experiment": {
+      "enum": [
+        "ATLAS",
+        "CMS"
+      ]
+    },
+    "collaboration": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "analysis_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+    },
+    "publication_date": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "data_period": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "dataset_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+    },
+    "sqrt_s": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[+-]?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$",
+              "maxLength": 128
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        "definition": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "definition"
+      ],
+      "additionalProperties": false
+    },
+    "luminosity": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[+-]?(?:[0-9]+(?:\\.[0-9]*)?|\\.[0-9]+)(?:[eE][+-]?[0-9]+)?$",
+              "maxLength": 128
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "unit": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        "definition": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        }
+      },
+      "required": [
+        "value",
+        "unit",
+        "definition"
+      ],
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+          },
+          "source_version": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 32768
+          }
+        },
+        "required": [
+          "source_id",
+          "source_version",
+          "sha256",
+          "locator"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "maxItems": 1000000
+    },
+    "purpose": {
+      "enum": [
+        "RESEARCH",
+        "TEST_FIXTURE"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "experiment",
+    "collaboration",
+    "analysis_id",
+    "publication_date",
+    "data_period",
+    "dataset_id",
+    "sqrt_s",
+    "luminosity",
+    "provenance",
+    "purpose"
+  ],
+  "additionalProperties": false
+}

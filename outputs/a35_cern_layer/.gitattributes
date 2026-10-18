@@ -1,0 +1,2 @@
+# Original evidence bytes are not editable text; never normalize their EOLs.
+**/raw/* -diff -text

@@ -1,0 +1,10 @@
+[project]
+name = "sl-constraints-foundation"
+version = "0.1.0"
+description = "Local A35 material contracts and exact transfer accounting; no solver"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.5.2"]
+
+# Source-tree execution is the supported Phase-1 delivery mode. There is no
+# CLI, build backend, pip-install workflow, or automatic dependency download.

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:sl-collider:observable:1.0.0",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "observable_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$"
+    },
+    "observable_type": {
+      "enum": [
+        "MASS_THRESHOLD",
+        "SIGMA",
+        "SIGMA_TIMES_BR",
+        "SIGMA_TIMES_ACCEPTANCE",
+        "SPHALERON_FRACTION",
+        "EVENT_FRACTION",
+        "DIMENSIONLESS_PARAMETER",
+        "OTHER",
+        "EXCLUSION_CONTOUR"
+      ]
+    },
+    "definition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "unit": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32768
+    },
+    "numerator": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "denominator": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32768
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "observable_id",
+    "observable_type",
+    "definition",
+    "unit",
+    "numerator",
+    "denominator"
+  ],
+  "additionalProperties": false
+}

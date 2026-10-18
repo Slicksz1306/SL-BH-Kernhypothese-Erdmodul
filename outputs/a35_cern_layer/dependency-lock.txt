@@ -1,0 +1,10 @@
+# Observed and tested environment, 2026-10-07; not a wheel/hash supply-chain lock.
+# No package was installed or upgraded during this implementation.
+# CPython 3.12.10, Windows AMD64
+numpy==2.5.2
+# NumPy distribution metadata: no Requires-Dist entries.
+# License-Expression: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
+# Existing binary distribution may bundle native libraries; not a fresh security audit.
+# unittest/decimal/fractions/hashlib/json/pathlib/dataclasses: Python standard library.
+# jsonschema, pytest, setuptools, build, ruff, mypy and pyright are not required
+# for source-tree use and were not installed.
