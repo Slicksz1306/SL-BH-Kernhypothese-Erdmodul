@@ -1,0 +1,3 @@
+CERN_TEST_full_212.log -text
+CERN_TEST_prior_full_baseline_210.log -text
+CERN_TEST_RESULTS.json -text

@@ -1,0 +1,2052 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en_US" lang="en_US">
+
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>CMS-EXO-24-028</title>
+  </head>
+
+  <link rel="stylesheet" href="https://twiki.cern.ch/twiki/pub/TWiki/JQueryPlugin/jquery-all.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://twiki.cern.ch/twiki/pub/TWiki/ImagePlugin/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://twiki.cern.ch/twiki/pub/TWiki/ImageGalleryPlugin/style.css" type="text/css" media="all" />
+  <script type="text/javascript" src="https://twiki.cern.ch/twiki/pub/TWiki/JQueryPlugin/jquery.js"></script>
+  <script type="text/javascript" src="https://twiki.cern.ch/twiki/pub/TWiki/JQueryPlugin/jquery-all.js"></script>
+  
+  <style type="text/css" media="all">
+    @import url("https://twiki.cern.ch/twiki/pub/TWiki/PatternSkin/layout.css");
+    @import url("https://twiki.cern.ch/twiki/pub/TWiki/PatternSkin/style.css");
+    @import url("https://twiki.cern.ch/twiki/pub/TWiki/PatternSkin/colors.css");
+    @import url("https://twiki.cern.ch/twiki/pub/TWiki/PatternSkin/print.css");
+  </style>
+  <script type="text/javascript" src="https://twiki.cern.ch/twiki/pub/TWiki/BehaviourContrib/behaviour.compressed.js"></script>
+  <script type="text/javascript" src="https://twiki.cern.ch/twiki/pub/TWiki/TWikiJavascripts/twikilib.js"></script>
+  <script type="text/javascript" src="https://twiki.cern.ch/twiki/pub/TWiki/TWikiJavascripts/twikiPref.js"></script>
+  <script type="text/javascript" src="https://twiki.cern.ch/twiki/pub/TWiki/TWikiJavascripts/twikiCSS.js"></script>
+  <script type="text/javascript" src="https://twiki.cern.ch/twiki/pub/TWiki/TwistyContrib/twist.compressed.js"></script>
+  
+  <link rel="stylesheet" type="text/css" media="all" href="../../html/CMS-PubComm.css" />
+
+  <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$']]}});</script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>  
+
+  <body class="patternViewPage">
+
+    <div style="background-color: silver; height: 80px; text-align:left"><img style="height: 80px;" alt="CMS logo" src="../../figures/cmsLogo_image.jpg" align="left" /><img style="height: 80px;" alt="CMS event Hgg" src="../../figures/Hgg_event.png" align="right" />
+      <br />
+      <span style=" margin-left: 10px; text-align:left;  font-weight:bold; font-size:x-large; color: white;  font-weight:bold; font-family:Trebuchet MS;">Compact Muon Solenoid</span><br />
+      <span style=" margin-left: 10px; text-align:left;  font-weight:bold; color: white;  font-size:large; font-weight:bold; font-family:Trebuchet MS;">LHC, <a style="color: white";  href="http://home.web.cern.ch">CERN</a></span><br />
+      <br style="color: black;" />
+    </div>
+
+    <!--div id="logoCMS_col"><img style="width: 162px; height: 162px;" alt="CMS logo" src="../../figures/cmsLogo_image.jpg" align="middle" /><br /></div -->
+    <div id="banner" style="border-left-width: 100px; border-left-color: black; background-color: #cc0000; text-align:right">
+      <span style=" margin-right: 10px; color: white; font-family:Arial;">
+	<a href="http://cern.ch/cms-results/public-results/publications">
+	  <img width="15" height="15"  style="margin-top:3px" src="http://icons.iconarchive.com/icons/double-j-design/origami-colored-pencil/256/blue-home-icon.png" />
+	  <!-- img width="15" height="15"  style="margin-top:3px" src="figures/home.jpg" /-->     
+	</a>
+	Visit us: <a style="color: white";  href="https://cms.cern/">CMS Public Website</a>, <a style="color: white";  href="https://cms.cern/org/cms-scientific-results">CMS Physics</a>   ;   
+	Contact us: <a style="color: white";  href="mailto:cms-publication-committee-chair@cern.ch">CMS Publications Committee</a> 
+      </span>
+    </div>
+
+    
+    <div id="publi"> 
+      
+      <table>
+	
+	<tr>
+	  <td colspan=3 align="right">
+	    CMS-EXO-24-028 ; CERN-EP-2026-048
+	  </td>
+	</tr>
+	
+	<tr><td colspan=3 class="titleline">
+	    A search for microscopic black holes, string balls, and sphalerons in proton-proton collisions at $ \sqrt{s} = $ 13 TeV
+	</td></tr>
+	
+	<tr><td colspan=3 class="dateline">
+	    CMS Collaboration
+	</td></tr>
+	
+	<tr><td colspan=3 class="dateline">
+	    12 April 2026
+	</td></tr>
+
+	<tr><td colspan=3 class="journalline">
+	    <i>
+	      <!-- _STATUS_ -->
+	      <a href="http://dx.doi.org/10.1007/JHEP08(2026)098">JHEP 08 (2026) 098</a> 
+	      <!-- [<a href="_ERR-URL_">_ERRATUM_</a>]  -->
+	      <!-- _PUBLI_  -->
+	    </i>
+	</td></tr>
+	
+	<tr><td colspan=3 class="textline">
+	    <b>Abstract: </b> 
+	    A search for microscopic black holes, string balls, and electroweak sphalerons using proton-proton collisions at $ \sqrt{s} = $ 13 TeV recorded with the CMS detector at the CERN LHC during the 2016--2018 data taking, and corresponding to an integrated luminosity of 138 fb$ ^{-1} $, is presented. Two search strategies based on control samples in data are used. Model-independent limits on the cross section of physics phenomena with multiple energetic jets, leptons, and photons are set using a method that relies on the shape invariance of the scalar sum of the transverse momenta of all objects in the event. Model-dependent limits on black hole and sphaleron production are set using a newly introduced method that has been developed for the identification of collider events with distinct kinematic features by separating them into classes based on phase space proximity. In the context of models with large extra dimensions, semiclassical black holes and string balls with masses below 8.4--11.4 TeV and 9.0--10.7 TeV, respectively, are excluded at 95% confidence level, significantly extending the reach beyond previous searches. Results of a dedicated search for electroweak sphalerons are used to derive an upper limit of 0.0034 at 95% confidence level on the fraction of quark-quark interactions above the nominal sphaleron transition energy threshold of 9 TeV. 
+	</td></tr>
+
+	<tr>
+	  <td class="link">
+	    <b>Links: </b>
+	    e-print <a href="http://arxiv.org/abs/2604.10732">arXiv:2604.10732</a> [hep-ex] (<a href="http://arxiv.org/pdf/2604.10732">PDF</a>) ; 
+	    <a href="https://cds.cern.ch/record/2958960">CDS record</a> ;
+	    <a href="http://inspirehep.net/record/3144373">inSPIRE record</a> ; 
+	    <!-- <a href="_TWIKI_URL_">Public twiki page</a> ; -->
+	    <!-- <a href="https://rivet.hepforge.org/analyses#_RIVET_RECORD_">Rivet record</a> ; -->
+	    <!-- <a href="http://hepdata.cedar.ac.uk/view/ins_HEPDATA__RECORD_">HepData record</a> ; -->
+	    <a href="https://www.hepdata.net/record/ins3144373">HepData record</a> ;
+	    <!-- <a href="https://www.hepdata.net/record/_HEPDATA_RECORD_">HepData record</a> ; -->
+	    <!-- <a href="_HEPDATA_URL_">HepData record</a> ; -->
+	    <a href="https://cms.cern/news/are-there-quantum-black-holes-evaporate-instantly">Physics Briefing</a> ;
+	    <!-- <a href="_AUTHOR_LIST_.pdf">Author List</a> ; -->
+	    <a href="http://cms.cern.ch/iCMS/analysisadmin/cadilines?line=EXO-24-028">CADI line</a> (restricted) ;
+	  </td>
+	</tr>
+	
+
+      </table>
+
+        <!-- Menu -->
+<div id="publi">
+<table>
+    <tbody>
+    <tr align="center">
+      <th style="vertical-align: middle; background-color: dimgray; width: 200px; height: 22px;"><a target="_top" style="color: white;" href="#Fig">Figures</a><span style="color: white;"> & </span><a target="_top" style="color: white;" href="#Tab">Tables</a>
+      </th>
+      <th style="vertical-align: middle; background-color: gray; width: 200px; height: 22px;"><a target="_top" style="color: white;" href="#Sum">Summary</a>
+      </th>
+      <th style="vertical-align: middle; background-color: darkgray; width: 200px; height: 22px;"><span style="color: white;"> Additional </span><a target="_top" style="color: white;" href="#AddFig">Figures</a>
+      </th>
+      <th style="vertical-align: middle; background-color: #B6B6B4; width: 200px; height: 22px;"><a target="_top" style="color: white;" href="#Ref">References</a>
+      </th>
+      <th style="vertical-align: middle; background-color: silver; width: 200px; height: 22px;"><a target="_top" style="color: white;" href="../../publications/index.html">CMS Publications</a>
+      </th>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+	<!-- Before -->
+
+	<!-- Cover -->
+
+	<!-- Viewpoint -->
+
+      <table>
+
+	<!-- Figures -->
+	<tr>
+	  <td class="sectiontitle" colspan=2 id="Fig"> 
+            <a name="figures">Figures</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_001">
+	    <a href="CMS-EXO-24-028_Figure_001.png">
+	      <img src="CMS-EXO-24-028_Figure_001-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_001.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_001.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_001.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_001.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_001.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_001"><i>Figure 1</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ (left) and sphericity (right) distributions for various BH (with $ n = $ 2) and sphaleron signal models are plotted along with the corresponding distributions for simulated QCD multijet background events. The distributions are normalized to unit area. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_001-a">
+	    <a href="CMS-EXO-24-028_Figure_001-a.png">
+	      <img src="CMS-EXO-24-028_Figure_001-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_001-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_001-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_001-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_001-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_001-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_001-a"><i>Figure 1-a</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ (left) and sphericity (right) distributions for various BH (with $ n = $ 2) and sphaleron signal models are plotted along with the corresponding distributions for simulated QCD multijet background events. The distributions are normalized to unit area. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_001-b">
+	    <a href="CMS-EXO-24-028_Figure_001-b.png">
+	      <img src="CMS-EXO-24-028_Figure_001-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_001-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_001-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_001-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_001-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_001-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_001-b"><i>Figure 1-b</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ (left) and sphericity (right) distributions for various BH (with $ n = $ 2) and sphaleron signal models are plotted along with the corresponding distributions for simulated QCD multijet background events. The distributions are normalized to unit area. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_002">
+	    <a href="CMS-EXO-24-028_Figure_002.png">
+	      <img src="CMS-EXO-24-028_Figure_002-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_002.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_002.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_002.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_002.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_002.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_002"><i>Figure 2</i></a>: 
+	    <br />
+	    The SVM score distributions for simulated QCD multijets, and selected BH (with $ n = $ 2) and sphaleron models, before (left) and after (right) the sphericity requirement. The distributions are normalized to unit area. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_002-a">
+	    <a href="CMS-EXO-24-028_Figure_002-a.png">
+	      <img src="CMS-EXO-24-028_Figure_002-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_002-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_002-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_002-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_002-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_002-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_002-a"><i>Figure 2-a</i></a>: 
+	    <br />
+	    The SVM score distributions for simulated QCD multijets, and selected BH (with $ n = $ 2) and sphaleron models, before (left) and after (right) the sphericity requirement. The distributions are normalized to unit area. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_002-b">
+	    <a href="CMS-EXO-24-028_Figure_002-b.png">
+	      <img src="CMS-EXO-24-028_Figure_002-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_002-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_002-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_002-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_002-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_002-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_002-b"><i>Figure 2-b</i></a>: 
+	    <br />
+	    The SVM score distributions for simulated QCD multijets, and selected BH (with $ n = $ 2) and sphaleron models, before (left) and after (right) the sphericity requirement. The distributions are normalized to unit area. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_003">
+	    <a href="CMS-EXO-24-028_Figure_003.png">
+	      <img src="CMS-EXO-24-028_Figure_003-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_003.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_003.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_003.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_003.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_003.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_003"><i>Figure 3</i></a>: 
+	    <br />
+	    The SVM score vs. the $ S_\text{T} $ distributions for simulated QCD multijet background (left) and the BH signal model B1 with $ M_\text{D} = $ 2 TeV, $ M_\text{BH} = $ 10 TeV, and $ n = $ 2 (right), after the $ S > $ 0.1 selection. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_003-a">
+	    <a href="CMS-EXO-24-028_Figure_003-a.png">
+	      <img src="CMS-EXO-24-028_Figure_003-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_003-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_003-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_003-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_003-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_003-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_003-a"><i>Figure 3-a</i></a>: 
+	    <br />
+	    The SVM score vs. the $ S_\text{T} $ distributions for simulated QCD multijet background (left) and the BH signal model B1 with $ M_\text{D} = $ 2 TeV, $ M_\text{BH} = $ 10 TeV, and $ n = $ 2 (right), after the $ S > $ 0.1 selection. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_003-b">
+	    <a href="CMS-EXO-24-028_Figure_003-b.png">
+	      <img src="CMS-EXO-24-028_Figure_003-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_003-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_003-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_003-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_003-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_003-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_003-b"><i>Figure 3-b</i></a>: 
+	    <br />
+	    The SVM score vs. the $ S_\text{T} $ distributions for simulated QCD multijet background (left) and the BH signal model B1 with $ M_\text{D} = $ 2 TeV, $ M_\text{BH} = $ 10 TeV, and $ n = $ 2 (right), after the $ S > $ 0.1 selection. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_004">
+	    <a href="CMS-EXO-24-028_Figure_004.png">
+	      <img src="CMS-EXO-24-028_Figure_004-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_004.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_004.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_004.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_004.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_004.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_004"><i>Figure 4</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ distribution in the $ N \geq $ 4 (left) and $ N \geq $ 7 (right) in the SI-VR in data is indicated by the black dots. The background prediction is represented by the red line, and the gray band corresponds to the background modeling uncertainty. The lower panels show the difference between observed data and the background prediction, normalized by the total uncertainty. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_004-a">
+	    <a href="CMS-EXO-24-028_Figure_004-a.png">
+	      <img src="CMS-EXO-24-028_Figure_004-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_004-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_004-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_004-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_004-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_004-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_004-a"><i>Figure 4-a</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ distribution in the $ N \geq $ 4 (left) and $ N \geq $ 7 (right) in the SI-VR in data is indicated by the black dots. The background prediction is represented by the red line, and the gray band corresponds to the background modeling uncertainty. The lower panels show the difference between observed data and the background prediction, normalized by the total uncertainty. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_004-b">
+	    <a href="CMS-EXO-24-028_Figure_004-b.png">
+	      <img src="CMS-EXO-24-028_Figure_004-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_004-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_004-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_004-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_004-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_004-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_004-b"><i>Figure 4-b</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ distribution in the $ N \geq $ 4 (left) and $ N \geq $ 7 (right) in the SI-VR in data is indicated by the black dots. The background prediction is represented by the red line, and the gray band corresponds to the background modeling uncertainty. The lower panels show the difference between observed data and the background prediction, normalized by the total uncertainty. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_005">
+	    <a href="CMS-EXO-24-028_Figure_005.png">
+	      <img src="CMS-EXO-24-028_Figure_005-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_005.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_005.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_005.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_005.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_005.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_005"><i>Figure 5</i></a>: 
+	    <br />
+	    Post-fit $ S_\text{T} $ distributions in VR-FAIL (left) and VR-PASS (right) regions in data. The gray hatched areas include both statistical and systematic uncertainties in the background prediction (yellow histogram). The red line corresponds to the signal model B1, with $ M_\text{D} = $ 2 TeV, $ M_\text{BH} = $ 10 TeV, and $ n = $ 2. The lower panels show the difference between observed data and the background prediction, normalized by the total uncertainty. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_006">
+	    <a href="CMS-EXO-24-028_Figure_006.png">
+	      <img src="CMS-EXO-24-028_Figure_006-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_006.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_006.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_006.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_006.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_006.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_006"><i>Figure 6</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ distribution in the $ N \geq $ 4 (left) and $ N \geq $ 7 (right) SI-SR in data, indicated by the black dots, along with the background prediction and its uncertainty represented by the red line and gray band, respectively. Lower panel as in Fig. 4. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_006-a">
+	    <a href="CMS-EXO-24-028_Figure_006-a.png">
+	      <img src="CMS-EXO-24-028_Figure_006-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_006-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_006-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_006-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_006-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_006-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_006-a"><i>Figure 6-a</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ distribution in the $ N \geq $ 4 (left) and $ N \geq $ 7 (right) SI-SR in data, indicated by the black dots, along with the background prediction and its uncertainty represented by the red line and gray band, respectively. Lower panel as in Fig. 4. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_006-b">
+	    <a href="CMS-EXO-24-028_Figure_006-b.png">
+	      <img src="CMS-EXO-24-028_Figure_006-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_006-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_006-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_006-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_006-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_006-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_006-b"><i>Figure 6-b</i></a>: 
+	    <br />
+	    The $ S_\text{T} $ distribution in the $ N \geq $ 4 (left) and $ N \geq $ 7 (right) SI-SR in data, indicated by the black dots, along with the background prediction and its uncertainty represented by the red line and gray band, respectively. Lower panel as in Fig. 4. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_007">
+	    <a href="CMS-EXO-24-028_Figure_007.png">
+	      <img src="CMS-EXO-24-028_Figure_007-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_007.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_007.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_007.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_007.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_007.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_007"><i>Figure 7</i></a>: 
+	    <br />
+	    Expected and observed model-independent 95% CL upper limits on the cross section times acceptance for multiplicity $ N \geq $ 4, where the inner (outer) band represents the 68% (95%) quantile of the expected limit (left), and the observed limits with different minimum object multiplicity requirements (right). 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_007-a">
+	    <a href="CMS-EXO-24-028_Figure_007-a.png">
+	      <img src="CMS-EXO-24-028_Figure_007-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_007-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_007-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_007-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_007-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_007-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_007-a"><i>Figure 7-a</i></a>: 
+	    <br />
+	    Expected and observed model-independent 95% CL upper limits on the cross section times acceptance for multiplicity $ N \geq $ 4, where the inner (outer) band represents the 68% (95%) quantile of the expected limit (left), and the observed limits with different minimum object multiplicity requirements (right). 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_007-b">
+	    <a href="CMS-EXO-24-028_Figure_007-b.png">
+	      <img src="CMS-EXO-24-028_Figure_007-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_007-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_007-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_007-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_007-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_007-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_007-b"><i>Figure 7-b</i></a>: 
+	    <br />
+	    Expected and observed model-independent 95% CL upper limits on the cross section times acceptance for multiplicity $ N \geq $ 4, where the inner (outer) band represents the 68% (95%) quantile of the expected limit (left), and the observed limits with different minimum object multiplicity requirements (right). 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_008">
+	    <a href="CMS-EXO-24-028_Figure_008.png">
+	      <img src="CMS-EXO-24-028_Figure_008-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_008.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_008.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_008.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_008.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_008.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_008"><i>Figure 8</i></a>: 
+	    <br />
+	    Post-fit $ S_\text{T} $ distributions in the FAIL (left) and PASS (right) regions in data. The gray shaded area includes both statistical and systematic uncertainties in the background prediction (yellow histogram) while the red and blue lines are B1 signal examples, as noted in the legends. Lower panel as in Fig. 5. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_009">
+	    <a href="CMS-EXO-24-028_Figure_009.png">
+	      <img src="CMS-EXO-24-028_Figure_009-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_009.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_009.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_009.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_009.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_009.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_009"><i>Figure 9</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the cross section for a semiclassical nonrotating BH model (B1) with $ n = $ 2 and $ M_\text{D} = $ 2 TeV (left) or $ M_\text{D} = $ 4 TeV (right), as a function of $ M_\text{BH} $. The blue curves represent the theoretical cross section values. The inner (outer) band represents the 68% (95%) quantile of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_009-a">
+	    <a href="CMS-EXO-24-028_Figure_009-a.png">
+	      <img src="CMS-EXO-24-028_Figure_009-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_009-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_009-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_009-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_009-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_009-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_009-a"><i>Figure 9-a</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the cross section for a semiclassical nonrotating BH model (B1) with $ n = $ 2 and $ M_\text{D} = $ 2 TeV (left) or $ M_\text{D} = $ 4 TeV (right), as a function of $ M_\text{BH} $. The blue curves represent the theoretical cross section values. The inner (outer) band represents the 68% (95%) quantile of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_009-b">
+	    <a href="CMS-EXO-24-028_Figure_009-b.png">
+	      <img src="CMS-EXO-24-028_Figure_009-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_009-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_009-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_009-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_009-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_009-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_009-b"><i>Figure 9-b</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the cross section for a semiclassical nonrotating BH model (B1) with $ n = $ 2 and $ M_\text{D} = $ 2 TeV (left) or $ M_\text{D} = $ 4 TeV (right), as a function of $ M_\text{BH} $. The blue curves represent the theoretical cross section values. The inner (outer) band represents the 68% (95%) quantile of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_010">
+	    <a href="CMS-EXO-24-028_Figure_010.png">
+	      <img src="CMS-EXO-24-028_Figure_010-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_010.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_010.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_010.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_010.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_010.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_010"><i>Figure 10</i></a>: 
+	    <br />
+	    Excluded $ M_{\text{BH}}^{\text{min}} $ values as functions of $ M_\text{D} $ and $ n $ for a variety of BLACKMAX (left) and CHARYBDIS2 (right) BH models. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_010-a">
+	    <a href="CMS-EXO-24-028_Figure_010-a.png">
+	      <img src="CMS-EXO-24-028_Figure_010-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_010-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_010-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_010-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_010-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_010-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_010-a"><i>Figure 10-a</i></a>: 
+	    <br />
+	    Excluded $ M_{\text{BH}}^{\text{min}} $ values as functions of $ M_\text{D} $ and $ n $ for a variety of BLACKMAX (left) and CHARYBDIS2 (right) BH models. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_010-b">
+	    <a href="CMS-EXO-24-028_Figure_010-b.png">
+	      <img src="CMS-EXO-24-028_Figure_010-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_010-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_010-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_010-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_010-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_010-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_010-b"><i>Figure 10-b</i></a>: 
+	    <br />
+	    Excluded $ M_{\text{BH}}^{\text{min}} $ values as functions of $ M_\text{D} $ and $ n $ for a variety of BLACKMAX (left) and CHARYBDIS2 (right) BH models. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_011">
+	    <a href="CMS-EXO-24-028_Figure_011.png">
+	      <img src="CMS-EXO-24-028_Figure_011-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_011.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_011.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_011.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_011.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_011.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_011"><i>Figure 11</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits for SB models with $ M_{\text{S}} = $ 3.5 TeV and $ g_{\text{S}} = $ 0.2 (left) and excluded SB mass values as functions of $ M_{\text{S}} $ at $ g_{\text{S}}=0.2, $ 0.3, and 0.4 (right). The inner (outer) band represents the 68% (95%) quantile of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_011-a">
+	    <a href="CMS-EXO-24-028_Figure_011-a.png">
+	      <img src="CMS-EXO-24-028_Figure_011-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_011-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_011-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_011-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_011-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_011-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_011-a"><i>Figure 11-a</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits for SB models with $ M_{\text{S}} = $ 3.5 TeV and $ g_{\text{S}} = $ 0.2 (left) and excluded SB mass values as functions of $ M_{\text{S}} $ at $ g_{\text{S}}=0.2, $ 0.3, and 0.4 (right). The inner (outer) band represents the 68% (95%) quantile of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_011-b">
+	    <a href="CMS-EXO-24-028_Figure_011-b.png">
+	      <img src="CMS-EXO-24-028_Figure_011-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_011-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_011-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_011-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_011-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_011-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_011-b"><i>Figure 11-b</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits for SB models with $ M_{\text{S}} = $ 3.5 TeV and $ g_{\text{S}} = $ 0.2 (left) and excluded SB mass values as functions of $ M_{\text{S}} $ at $ g_{\text{S}}=0.2, $ 0.3, and 0.4 (right). The inner (outer) band represents the 68% (95%) quantile of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_012">
+	    <a href="CMS-EXO-24-028_Figure_012.png">
+	      <img src="CMS-EXO-24-028_Figure_012-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_012.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_012.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_012.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_012.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_012.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_012"><i>Figure 12</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the pre-exponential factor for the sphaleron model with $ p({N_\text{CS}})= $ 0.5 (left), and observed limits with $ p({N_\text{CS}})= $ 0, 0.5, and 1 (right). The inner (outer) band (left) represents the 68% (95%) quantiles of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_012-a">
+	    <a href="CMS-EXO-24-028_Figure_012-a.png">
+	      <img src="CMS-EXO-24-028_Figure_012-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_012-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_012-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_012-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_012-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_012-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_012-a"><i>Figure 12-a</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the pre-exponential factor for the sphaleron model with $ p({N_\text{CS}})= $ 0.5 (left), and observed limits with $ p({N_\text{CS}})= $ 0, 0.5, and 1 (right). The inner (outer) band (left) represents the 68% (95%) quantiles of the expected limit. 
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure_012-b">
+	    <a href="CMS-EXO-24-028_Figure_012-b.png">
+	      <img src="CMS-EXO-24-028_Figure_012-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure_012-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure_012-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure_012-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_012-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure_012-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure_012-b"><i>Figure 12-b</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the pre-exponential factor for the sphaleron model with $ p({N_\text{CS}})= $ 0.5 (left), and observed limits with $ p({N_\text{CS}})= $ 0, 0.5, and 1 (right). The inner (outer) band (left) represents the 68% (95%) quantiles of the expected limit. 
+	  </td>
+	</tr>
+
+      </table>
+      <table>
+
+	<!-- Tables -->
+	<tr>
+	  <td class="sectiontitle" colspan=2 id="Tab"> 
+            <a name="figures">Tables</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <!-- td class="table" width="50%" -->
+	  <td class="table" id="Table_001">
+	    <a href="CMS-EXO-24-028_Table_001.png">
+	      <img src="CMS-EXO-24-028_Table_001-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Table_001.png">png</a>  
+	    <a href="CMS-EXO-24-028_Table_001.pdf">pdf</a><br />
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Table_001"><i>Table 1</i></a>:
+	    <br />
+	    Parameter combinations of the fundamental Planck scale $ M_\text{D} $ and minimum black hole mass $ M_{\text{BH}}^{\text{min}} $ (both in TeV) that exclude a given number of extra dimensions $ n^{\text{max}} $, for BH models generated with BLACKMAX and CHARYBDIS2. Each row collects all ($ M_\text{D} $, $ M_{\text{BH}}^{\text{min}} $) pairs yielding the same exclusion level. Combinations with $ M_{\text{BH}}^{\text{min}} < M_\text{D} $ are unphysical and not considered. The first row indicates the pairs that are excluded for any number of extra dimensions in the ADD model, while the last row shows the parameters where no exclusion could be made in this analysis. 
+	  </td>
+	</tr>
+
+      </table>
+      <table>
+
+	<!-- Summary -->
+	<tr>
+	  <td class="sectiontitle" colspan=1 id="Sum"> 
+            <a name="figures">Summary</a>
+	  </td>
+	</tr>
+
+	<tr><td colspan=1 class="textline">
+<!-- _SUMMARY_ -->A dedicated search for black holes, string balls, and sphalerons produced in proton-proton collisions at $ \sqrt{s} = $ 13 TeV using data collected with the CMS detector has been presented. No excesses above the standard model background predictions are observed. We set 95% confidence level (CL) model-independent limits on cross section of hypothetical signals characterized by a large multiplicity of energetic jets, leptons, and photons. The model-independent results demonstrate approximately a factor of four improvement in the cross section limit compared to the previous CMS analysis. The model-dependent results exclude at 95% CL semiclassical black holes and string balls with masses below 8.4--11.4 TeV and 9.0--10.7 TeV, respectively, depending on the model and the number of extra dimensions. This extends the exclusion reach by 1--1.6 TeV and 1.3--1.9 TeV, respectively. The observed (expected) upper limit on the sphaleron pre-exponential factor for the nominal electroweak sphaleron transition energy of 9 TeV is 0.0034 (0.0035) at 95% CL, which is strengthened by a factor of 6.2 (3.4) compared to the previous best limit of 0.021 (0.012) from CMS [<a href="index.html#Reference_21">21</a>]. These are the most stringent limits on the sphaleron pre-exponential factor to date. A significant improvement in the model-dependent study over previous results comes from an improved understanding of parton distribution functions. Additional significant gains can be traced to both the increased integrated luminosity, and the enhanced background rejection provided by the sphericity and phase space distance event selection requirements. 
+	</td></tr>
+
+      </table>
+      <table>
+
+	<!-- Auxiliary Figures -->
+	<tr>
+	  <td class="sectiontitle" colspan=2 id="AddFig"> 
+            <a name="figures">Additional Figures</a>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_001">
+	    <a href="CMS-EXO-24-028_Figure-aux_001.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_001-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_001.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_001.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_001.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_001.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_001.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_001"><i>Additional Figure 1</i></a>: 
+	    <br />
+	    Pairwise phase space distance of 10,000 background vs 10,000 signal events. The signal event contains a mix of differennt $M_\text{BH}$ values. The X and Y axis are the event indices from 1 to 20,000.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_002">
+	    <a href="CMS-EXO-24-028_Figure-aux_002.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_002-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_002.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_002.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_002.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_002.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_002.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_002"><i>Additional Figure 2</i></a>: 
+	    <br />
+	    The SVM score distribution in the training and test datasets.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_003">
+	    <a href="CMS-EXO-24-028_Figure-aux_003.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_003-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_003.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_003.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_003"><i>Additional Figure 3</i></a>: 
+	    <br />
+	    The SVM score distributions for various $M_\text{BH}$ mass points from B1, n=2 and sphaleron $E_{sph}=9$ TeV signal models without (left) and with (right) the sphericity cut.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_003-a">
+	    <a href="CMS-EXO-24-028_Figure-aux_003-a.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_003-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_003-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_003-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_003-a"><i>Additional Figure 3-a</i></a>: 
+	    <br />
+	    The SVM score distributions for various $M_\text{BH}$ mass points from B1, n=2 and sphaleron $E_{sph}=9$ TeV signal models without (left) and with (right) the sphericity cut.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_003-b">
+	    <a href="CMS-EXO-24-028_Figure-aux_003-b.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_003-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_003-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_003-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_003-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_003-b"><i>Additional Figure 3-b</i></a>: 
+	    <br />
+	    The SVM score distributions for various $M_\text{BH}$ mass points from B1, n=2 and sphaleron $E_{sph}=9$ TeV signal models without (left) and with (right) the sphericity cut.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_004">
+	    <a href="CMS-EXO-24-028_Figure-aux_004.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_004-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_004.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_004.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_004.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_004.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_004.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_004"><i>Additional Figure 4</i></a>: 
+	    <br />
+	    The Punzi figure of merit as a function of the SVM score cut for the different $M_D$ values in the B1, n=2, $M_\text{BH}$ =11 TeV signal model.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_005">
+	    <a href="CMS-EXO-24-028_Figure-aux_005.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_005-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_005.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_005.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_005.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_005.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_005.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_005"><i>Additional Figure 5</i></a>: 
+	    <br />
+	    Post-fit PASS/FAIL as a function of $S_T$ of the predicted background, fitted transfer function, and data with statistical errors for the signal+background fit.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_006">
+	    <a href="CMS-EXO-24-028_Figure-aux_006.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_006-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_006.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_006.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_006.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_006.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_006.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_006"><i>Additional Figure 6</i></a>: 
+	    <br />
+	    Simulation based background $S_T$ distribution after event selections. The stacked histograms show the expected yields for $Z\to\nu\nu$, $t\bar{t}$, $W\to\ell\nu$, $Z{+}$jets, $W{+}$jets, $\gamma{+}$jets, and QCD multijet events. The main background is the QCD multijet production.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_007">
+	    <a href="CMS-EXO-24-028_Figure-aux_007.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_007-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_007.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_007.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_007.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_007.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_007.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_007"><i>Additional Figure 7</i></a>: 
+	    <br />
+	    Demonstration of $S_T$-invariance across event multiplicities. The shown figure is the $S_T$ spectra for $N\!\geq\!3$–$8$ after the sphericity requirement $S>0.1$, each multiplied by the factor indicated to separate the curves. The solid line is the background prediction; the gray band shows the background modeling uncertainty. Points are data with statistical uncertainties. All the curves are aligned with the actual data within uncertainties.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_008">
+	    <a href="CMS-EXO-24-028_Figure-aux_008.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_008-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_008.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_008.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_008.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_008.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_008.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_008"><i>Additional Figure 8</i></a>: 
+	    <br />
+	    Data to prediction ratios of the $S_T$ spectra for multiplicities $N\!\ge\!3$--$8$ after the sphericity requirement $S>0.1$. The red horizontal line at 1 represents the background prediction, and the gray band shows the corresponding background modeling uncertainty. Points are data with statistical uncertainties. Across all multiplicities the ratios are consistent with unity, and the propagated shapes are aligned with the actual data within uncertainties. Hence, the $S_T$-invariance holds.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_009">
+	    <a href="CMS-EXO-24-028_Figure-aux_009.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_009-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_009.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_009.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_009"><i>Additional Figure 9</i></a>: 
+	    <br />
+	    Median expected excluded $M_\text{BH}$ values as a function of $M_\text{D}$ and $n$ for a variety of \textsc{BlackMax} (left) and \textsc{Charybdis2} (right) BH models.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_009-a">
+	    <a href="CMS-EXO-24-028_Figure-aux_009-a.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_009-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_009-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_009-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_009-a"><i>Additional Figure 9-a</i></a>: 
+	    <br />
+	    Median expected excluded $M_\text{BH}$ values as a function of $M_\text{D}$ and $n$ for a variety of \textsc{BlackMax} (left) and \textsc{Charybdis2} (right) BH models.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_009-b">
+	    <a href="CMS-EXO-24-028_Figure-aux_009-b.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_009-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_009-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_009-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_009-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_009-b"><i>Additional Figure 9-b</i></a>: 
+	    <br />
+	    Median expected excluded $M_\text{BH}$ values as a function of $M_\text{D}$ and $n$ for a variety of \textsc{BlackMax} (left) and \textsc{Charybdis2} (right) BH models.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_010">
+	    <a href="CMS-EXO-24-028_Figure-aux_010.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_010-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_010.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_010.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_010"><i>Additional Figure 10</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the cross section of the BH production as a function of the number of extra dimensions for the signal model B2 with $M_\text{D} = 3 $ TeV and $M_\text{BH} = 10 $ TeV (left), and for $M_\text{BH} = 11 $ TeV (right).
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_010-a">
+	    <a href="CMS-EXO-24-028_Figure-aux_010-a.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_010-a-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_010-a.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_010-a.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010-a.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010-a.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010-a.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_010-a"><i>Additional Figure 10-a</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the cross section of the BH production as a function of the number of extra dimensions for the signal model B2 with $M_\text{D} = 3 $ TeV and $M_\text{BH} = 10 $ TeV (left), and for $M_\text{BH} = 11 $ TeV (right).
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_010-b">
+	    <a href="CMS-EXO-24-028_Figure-aux_010-b.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_010-b-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_010-b.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_010-b.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010-b.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010-b.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_010-b.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_010-b"><i>Additional Figure 10-b</i></a>: 
+	    <br />
+	    Expected and observed 95% CL upper limits on the cross section of the BH production as a function of the number of extra dimensions for the signal model B2 with $M_\text{D} = 3 $ TeV and $M_\text{BH} = 10 $ TeV (left), and for $M_\text{BH} = 11 $ TeV (right).
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_011">
+	    <a href="CMS-EXO-24-028_Figure-aux_011.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_011-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_011.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_011.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_011.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_011.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_011.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_011"><i>Additional Figure 11</i></a>: 
+	    <br />
+	    An event display of the largest-$S_\text{T}$ (6.9 TeV) signal candidate event seen in data. The event contains 7 jets, represented by the yellow cones.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_012">
+	    <a href="CMS-EXO-24-028_Figure-aux_012.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_012-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_012.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_012.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_012.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_012.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_012.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_012"><i>Additional Figure 12</i></a>: 
+	    <br />
+	    An event display of the highest-multiplicity ($N =$ 9) signal candidate event seen in data. The event contains 9 jets, represented by the yellow cones.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_013">
+	    <a href="CMS-EXO-24-028_Figure-aux_013.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_013-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_013.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_013.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_013.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_013.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_013.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_013"><i>Additional Figure 13</i></a>: 
+	    <br />
+	    An event display of the most-spherical (sphericity = 0.87) signal candidate event seen in data. The event contains 6 jets, represented by the yellow cones.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_014">
+	    <a href="CMS-EXO-24-028_Figure-aux_014.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_014-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_014.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_014.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_014.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_014.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_014.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_014"><i>Additional Figure 14</i></a>: 
+	    <br />
+	    An event display of a simulated black hole event. The event contains 9 jets, represented by the orange cones.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_015">
+	    <a href="CMS-EXO-24-028_Figure-aux_015.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_015-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_015.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_015.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_015.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_015.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_015.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_015"><i>Additional Figure 15</i></a>: 
+	    <br />
+	    An event display of a simulated black hole event. The event contains: 5 jets, represented by the orange cones; 2 muons, respresented by the red trajectories; 1 electron, shown by the solid green line; and one photon, indicated by the dashed yellow line.
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="figure" id="Figure-aux_016">
+	    <a href="CMS-EXO-24-028_Figure-aux_016.png">
+	      <img src="CMS-EXO-24-028_Figure-aux_016-thumb.png" /></a>
+	    <br/>    
+	    <a href="CMS-EXO-24-028_Figure-aux_016.png">png</a>  
+	    <a href="CMS-EXO-24-028_Figure-aux_016.pdf">pdf</a> 
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_016.jpg">jpg</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_016.root">root</a>  -->
+	    <!-- <a href="CMS-EXO-24-028_Figure-aux_016.csv">csv</a>  -->
+	  </td>
+	  <td class="legend">
+	    <a href="index.html#Figure-aux_016"><i>Additional Figure 16</i></a>: 
+	    <br />
+	    An event display of a simulated sphaleron event. The event contains 9 jets, 3 muons, and 1 electon, represented by the orange cones, red trajectories, and the solid green line, respectively.
+	  </td>
+	</tr>
+	
+      </table>
+      <table>
+	
+	<!-- Auxiliary Tables -->
+
+      </table>
+
+        <!-- Additional Material -->
+
+	<!-- After -->
+
+      </div>
+
+      <!-- References -->
+<div id="listofpublis">
+<table>
+    <tr>
+    <td class="sectiontitle" colspan=5 id="Ref"> 
+    <a name="references">References</a>
+    </td>
+    </tr>
+    <tr>
+	<!-- BEGIN -- Antoniadis:1998ig -->
+	    <tr>
+	    <td class="num" id="Reference_1"><b>1</b></td>
+	    <td class="authors">I. Antoniadis, N. Arkani-Hamed, S. Dimopoulos, and G. R. Dvali</td>
+	    <td class="reftitle">New dimensions at a millimeter to a fermi and superstrings at a TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/S0370-2693(98)00860-0" class="a-1">PLB 436 (1998) 257</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/9804398" class="a-1">hep-ph/9804398</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Arkani-Hamed:1998jmv -->
+	    <tr>
+	    <td class="num" id="Reference_2"><b>2</b></td>
+	    <td class="authors">N. Arkani-Hamed, S. Dimopoulos, and G. R. Dvali</td>
+	    <td class="reftitle">The hierarchy problem and new dimensions at a millimeter</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/S0370-2693(98)00466-3" class="a-1">PLB 429 (1998) 263</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/9803315" class="a-1">hep-ph/9803315</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Arkani-Hamed:1998sfv -->
+	    <tr>
+	    <td class="num" id="Reference_3"><b>3</b></td>
+	    <td class="authors">N. Arkani-Hamed, S. Dimopoulos, and G. R. Dvali</td>
+	    <td class="reftitle">Phenomenology, astrophysics and cosmology of theories with submillimeter dimensions and TeV scale quantum gravity</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.59.086004" class="a-1">PRD 59 (1999) 086004</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/9807344" class="a-1">hep-ph/9807344</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Randall:1999vf -->
+	    <tr>
+	    <td class="num" id="Reference_4"><b>4</b></td>
+	    <td class="authors">L. Randall and R. Sundrum</td>
+	    <td class="reftitle">An alternative to compactification</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevLett.83.4690" class="a-1">PRL 83 (1999) 4690</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-th/9906064" class="a-1">hep-th/9906064</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Randall:1999ee -->
+	    <tr>
+	    <td class="num" id="Reference_5"><b>5</b></td>
+	    <td class="authors">L. Randall and R. Sundrum</td>
+	    <td class="reftitle">A large mass hierarchy from a small extra dimension</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevLett.83.3370" class="a-1">PRL 83 (1999) 3370</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/9905221" class="a-1">hep-ph/9905221</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Dimopoulos:2001hw -->
+	    <tr>
+	    <td class="num" id="Reference_6"><b>6</b></td>
+	    <td class="authors">S. Dimopoulos and G. L. Landsberg</td>
+	    <td class="reftitle">Black holes at the LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevLett.87.161602" class="a-1">PRL 87 (2001) 161602</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/0106295" class="a-1">hep-ph/0106295</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Argyres:1998qn -->
+	    <tr>
+	    <td class="num" id="Reference_7"><b>7</b></td>
+	    <td class="authors">P. C. Argyres, S. Dimopoulos, and J. March-Russell</td>
+	    <td class="reftitle">Black holes and submillimeter dimensions</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/S0370-2693(98)01184-8" class="a-1">PLB 441 (1998) 96</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-th/9808138" class="a-1">hep-th/9808138</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Giddings:2001bu -->
+	    <tr>
+	    <td class="num" id="Reference_8"><b>8</b></td>
+	    <td class="authors">S. B. Giddings and S. D. Thomas</td>
+	    <td class="reftitle">High-energy colliders as black hole factories: The end of short distance physics</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.65.056010" class="a-1">PRD 65 (2002) 056010</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/0106219" class="a-1">hep-ph/0106219</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Hawking:1975vcx -->
+	    <tr>
+	    <td class="num" id="Reference_9"><b>9</b></td>
+	    <td class="authors">S. W. Hawking</td>
+	    <td class="reftitle">Particle creation by black holes</td>
+	    <td class="reference">[Erratum: doi:10./BF01608497, 1975]<br><a href="http://dx.doi.org/10.1007/BF02345020" class="a-1">Commun. Math. Phys. 43 (1975) 199</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Meade:2007sz -->
+	    <tr>
+	    <td class="num" id="Reference_10"><b>10</b></td>
+	    <td class="authors">P. Meade and L. Randall</td>
+	    <td class="reftitle">Black holes and quantum gravity at the LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1126-6708/2008/05/003" class="a-1">JHEP 05 (2008) 003</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0708.3017" class="a-1">0708.3017</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Gingrich:2009hj -->
+	    <tr>
+	    <td class="num" id="Reference_11"><b>11</b></td>
+	    <td class="authors">D. M. Gingrich</td>
+	    <td class="reftitle">Quantum black holes with charge, colour, and spin at the LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/0954-3899/37/10/105008" class="a-1">JPG 37 (2010) 105008</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0912.0826" class="a-1">0912.0826</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Calmet:2008dg -->
+	    <tr>
+	    <td class="num" id="Reference_12"><b>12</b></td>
+	    <td class="authors">X. Calmet, W. Gong, and S. D. H. Hsu</td>
+	    <td class="reftitle">Colorful quantum black holes at the LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/j.physletb.2008.08.011" class="a-1">PLB 668 (2008) 20</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0806.4605" class="a-1">0806.4605</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Dimopoulos:2001qe -->
+	    <tr>
+	    <td class="num" id="Reference_13"><b>13</b></td>
+	    <td class="authors">S. Dimopoulos and R. Emparan</td>
+	    <td class="reftitle">String balls at the LHC and beyond</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/S0370-2693(01)01525-8" class="a-1">PLB 526 (2002) 393</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/0108060" class="a-1">hep-ph/0108060</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- tHooft:1976rip -->
+	    <tr>
+	    <td class="num" id="Reference_14"><b>14</b></td>
+	    <td class="authors">G. 't Hooft</td>
+	    <td class="reftitle">Symmetry breaking through Bell-Jackiw anomalies</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevLett.37.8" class="a-1">PRL 37 (1976) 8</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Klinkhamer:1984di -->
+	    <tr>
+	    <td class="num" id="Reference_15"><b>15</b></td>
+	    <td class="authors">F. R. Klinkhamer and N. S. Manton</td>
+	    <td class="reftitle">A saddle point solution in the Weinberg-Salam theory</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.30.2212" class="a-1">PRD 30 (1984) 2212</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Tye:2015tva -->
+	    <tr>
+	    <td class="num" id="Reference_16"><b>16</b></td>
+	    <td class="authors">S. H. H. Tye and S. S. C. Wong</td>
+	    <td class="reftitle">Bloch wave function for the periodic sphaleron potential and unsuppressed baryon and lepton number violating processes</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.92.045005" class="a-1">PRD 92 (2015) 045005</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1505.03690" class="a-1">1505.03690</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Ellis:2016ast -->
+	    <tr>
+	    <td class="num" id="Reference_17"><b>17</b></td>
+	    <td class="authors">J. Ellis and K. Sakurai</td>
+	    <td class="reftitle">Search for sphalerons in proton-proton collisions</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP04(2016)086" class="a-1">JHEP 04 (2016) 086</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1601.03654" class="a-1">1601.03654</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Papaefstathiou:2019djz -->
+	    <tr>
+	    <td class="num" id="Reference_18"><b>18</b></td>
+	    <td class="authors">A. Papaefstathiou, S. Pl ä tzer, and K. Sakurai</td>
+	    <td class="reftitle">On the phenomenology of sphaleron-induced processes at the LHC and beyond</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP12(2019)017" class="a-1">JHEP 12 (2019) 017</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1910.04761" class="a-1">1910.04761</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- ATLAS:2015yln -->
+	    <tr>
+	    <td class="num" id="Reference_19"><b>19</b></td>
+	    <td class="authors"><a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic" style="color: blue"><b>ATLAS Collaboration</b></a></td>
+	    <td class="reftitle">Search for strong gravity in multijet final states produced in pp collisions at $ \sqrt{s} = $ 13 TeV using the ATLAS detector at the LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP03(2016)026" class="a-1">JHEP 03 (2016) 026</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1512.02586" class="a-1">1512.02586</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- ATLAS:2023vat -->
+	    <tr>
+	    <td class="num" id="Reference_20"><b>20</b></td>
+	    <td class="authors"><a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic" style="color: blue"><b>ATLAS Collaboration</b></a></td>
+	    <td class="reftitle">Search for quantum black hole production in lepton+jet final states using proton-proton collisions at $ \sqrt{s}= $ 13 TeV with the ATLAS detector</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.109.032010" class="a-1">PRD 109 (2024) 032010</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2307.14967" class="a-1">2307.14967</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2018ozv -->
+	    <tr>
+	    <td class="num" id="Reference_21"><b>21</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Search for black holes and sphalerons in high-multiplicity final states in proton-proton collisions at $ \sqrt{s}= $ 13 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP11(2018)042" class="a-1">JHEP 11 (2018) 042</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/EXO-17-023/index.html" class="a-1"><b>CMS-EXO-17-023</b></a><br><a href="http://www.arXiv.org/abs/1805.06013" class="a-1">1805.06013</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2010oej -->
+	    <tr>
+	    <td class="num" id="Reference_22"><b>22</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Search for microscopic black hole signatures at the Large Hadron Collider</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/j.physletb.2011.02.032" class="a-1">PLB 697 (2011) 434</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/EXO-10-017/index.html" class="a-1"><b>CMS-EXO-10-017</b></a><br><a href="http://www.arXiv.org/abs/1012.3375" class="a-1">1012.3375</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2012grf -->
+	    <tr>
+	    <td class="num" id="Reference_23"><b>23</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Search for microscopic black holes in $ pp $ collisions at $ \sqrt{s}= $ 7 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP04(2012)061" class="a-1">JHEP 04 (2012) 061</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/EXO-11-071/index.html" class="a-1"><b>CMS-EXO-11-071</b></a><br><a href="http://www.arXiv.org/abs/1202.6396" class="a-1">1202.6396</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2013ndg -->
+	    <tr>
+	    <td class="num" id="Reference_24"><b>24</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Search for microscopic black holes in $ pp $ collisions at $ \sqrt{s} = $ 8 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP07(2013)178" class="a-1">JHEP 07 (2013) 178</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/EXO-12-009/index.html" class="a-1"><b>CMS-EXO-12-009</b></a><br><a href="http://www.arXiv.org/abs/1303.5338" class="a-1">1303.5338</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2017boz -->
+	    <tr>
+	    <td class="num" id="Reference_25"><b>25</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Search for black holes in high-multiplicity final states in proton-proton collisions at $ \sqrt{s}= $13 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/j.physletb.2017.09.053" class="a-1">PLB 774 (2017) 279</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/EXO-15-007/index.html" class="a-1"><b>CMS-EXO-15-007</b></a><br><a href="http://www.arXiv.org/abs/1705.01403" class="a-1">1705.01403</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- hepdata -->
+	    <tr>
+	    <td class="num" id="Reference_26"><b>26</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">HEPData record for this analysis</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.17182/hepdata.165871" class="a-1">link</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2008xjf -->
+	    <tr>
+	    <td class="num" id="Reference_27"><b>27</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">The CMS experiment at the CERN LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/3/08/S08004" class="a-1">JINST 3 (2008) S08004</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1003.4038" class="a-1">1003.4038</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2023gfb -->
+	    <tr>
+	    <td class="num" id="Reference_28"><b>28</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Development of the CMS detector for the CERN LHC Run 3</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/19/05/P05064" class="a-1">JINST 19 (2024) P05064</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/PRF-21-001/index.html" class="a-1"><b>CMS-PRF-21-001</b></a><br><a href="http://www.arXiv.org/abs/2309.05466" class="a-1">2309.05466</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2014pgm -->
+	    <tr>
+	    <td class="num" id="Reference_29"><b>29</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Description and performance of track and primary-vertex reconstruction with the CMS tracker</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/9/10/P10009" class="a-1">JINST 9 (2014) P10009</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/TRK-11-001/index.html" class="a-1"><b>CMS-TRK-11-001</b></a><br><a href="http://www.arXiv.org/abs/1405.6569" class="a-1">1405.6569</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Phase1Pixel -->
+	    <tr>
+	    <td class="num" id="Reference_30"><b>30</b></td>
+	    <td class="authors">Tracker Group of the CMS Collaboration</td>
+	    <td class="reftitle">The CMS phase-1 pixel detector upgrade</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/16/02/P02027" class="a-1">JINST 16 (2021) P02027</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2012.14304" class="a-1">2012.14304</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- DP-2020-049 -->
+	    <tr>
+	    <td class="num" id="Reference_31"><b>31</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Track impact parameter resolution for the full pseudo rapidity coverage in the 2017 dataset with the CMS Phase-1 pixel detector</td>
+	    <td class="reference">CMS Detector Performance Summary CMS-DP-2020-049, 2020<br><a href="http://cds.cern.ch/record/2743740" class="a-1">CDS</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- DP-2017-015 -->
+	    <tr>
+	    <td class="num" id="Reference_32"><b>32</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">2017 tracking performance plots</td>
+	    <td class="reference">CMS Detector Performance Summary CMS-DP-2017-015, 2017<br><a href="http://cds.cern.ch/record/2290524" class="a-1">CDS</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2020cmk -->
+	    <tr>
+	    <td class="num" id="Reference_33"><b>33</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Performance of the CMS level-1 trigger in proton-proton collisions at $ \sqrt{s} = $ 13 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/15/10/P10017" class="a-1">JINST 15 (2020) P10017</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/TRG-17-001/index.html" class="a-1"><b>CMS-TRG-17-001</b></a><br><a href="http://www.arXiv.org/abs/2006.10165" class="a-1">2006.10165</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2016ngn -->
+	    <tr>
+	    <td class="num" id="Reference_34"><b>34</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">The CMS trigger system</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/12/01/P01020" class="a-1">JINST 12 (2017) P01020</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/TRG-12-001/index.html" class="a-1"><b>CMS-TRG-12-001</b></a><br><a href="http://www.arXiv.org/abs/1609.02366" class="a-1">1609.02366</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2024aqx -->
+	    <tr>
+	    <td class="num" id="Reference_35"><b>35</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Performance of the CMS high-level trigger during LHC Run 2</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/19/11/P11021" class="a-1">JINST 19 (2024) P11021</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/TRG-19-001/index.html" class="a-1"><b>CMS-TRG-19-001</b></a><br><a href="http://www.arXiv.org/abs/2410.17038" class="a-1">2410.17038</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Dai:2007ki -->
+	    <tr>
+	    <td class="num" id="Reference_36"><b>36</b></td>
+	    <td class="authors">D.-C. Dai et al.</td>
+	    <td class="reftitle">BlackMax: A black-hole event generator with rotation, recoil, split branes, and brane tension</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.77.076007" class="a-1">PRD 77 (2008) 076007</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0711.3012" class="a-1">0711.3012</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Harris:2003db -->
+	    <tr>
+	    <td class="num" id="Reference_37"><b>37</b></td>
+	    <td class="authors">C. M. Harris, P. Richardson, and B. R. Webber</td>
+	    <td class="reftitle">CHARYBDIS: A black hole event generator</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1126-6708/2003/08/033" class="a-1">JHEP 08 (2003) 033</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/0307305" class="a-1">hep-ph/0307305</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Frost:2009cf -->
+	    <tr>
+	    <td class="num" id="Reference_38"><b>38</b></td>
+	    <td class="authors">J. A. Frost et al.</td>
+	    <td class="reftitle">Phenomenology of production and decay of spinning extra-dimensional black holes at hadron colliders</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1126-6708/2009/10/014" class="a-1">JHEP 10 (2009) 014</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0904.0979" class="a-1">0904.0979</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Bravo:2018dkg -->
+	    <tr>
+	    <td class="num" id="Reference_39"><b>39</b></td>
+	    <td class="authors">C. Bravo and J. Hauser</td>
+	    <td class="reftitle">BaryoGEN, a Monte Carlo generator for sphaleron-like transitions in proton-proton collisions</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP11(2018)041" class="a-1">JHEP 11 (2018) 041</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1805.02786" class="a-1">1805.02786</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Frederix:2018nkq -->
+	    <tr>
+	    <td class="num" id="Reference_40"><b>40</b></td>
+	    <td class="authors">R. Frederix et al.</td>
+	    <td class="reftitle">The automation of next-to-leading order electroweak calculations</td>
+	    <td class="reference">[Erratum: doi: 10./JHEP11()085, 2018]<br><a href="http://dx.doi.org/10.1007/JHEP11(2018)07" class="a-1">JHEP 07 (2018) 185</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1804.10017" class="a-1">1804.10017</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Alwall:2007fs -->
+	    <tr>
+	    <td class="num" id="Reference_41"><b>41</b></td>
+	    <td class="authors">J. Alwall et al.</td>
+	    <td class="reftitle">Comparative study of various algorithms for the merging of parton showers and matrix elements in hadronic collisions</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1140/epjc/s10052-007-0490-5" class="a-1">EPJC 53 (2008) 473</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0706.2569" class="a-1">0706.2569</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Creek:2007sy -->
+	    <tr>
+	    <td class="num" id="Reference_42"><b>42</b></td>
+	    <td class="authors">S. Creek, O. Efthimiou, P. Kanti, and K. Tamvakis</td>
+	    <td class="reftitle">Greybody factors for brane scalar fields in a rotating black-hole background</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.75.084043" class="a-1">PRD 75 (2007) 084043</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-th/0701288" class="a-1">hep-th/0701288</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Creek:2007pw -->
+	    <tr>
+	    <td class="num" id="Reference_43"><b>43</b></td>
+	    <td class="authors">S. Creek, O. Efthimiou, P. Kanti, and K. Tamvakis</td>
+	    <td class="reftitle">Scalar emission in the bulk in a rotating black hole background</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/j.physletb.2007.09.050" class="a-1">PLB 656 (2007) 102</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0709.0241" class="a-1">0709.0241</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Yoshino:2005hi -->
+	    <tr>
+	    <td class="num" id="Reference_44"><b>44</b></td>
+	    <td class="authors">H. Yoshino and V. S. Rychkov</td>
+	    <td class="reftitle">Improved analysis of black hole formation in high-energy particle collisions</td>
+	    <td class="reference">[Erratum: doi:10.1103/PhysRevD.77.089905, 2005]<br><a href="http://dx.doi.org/10.1103/PhysRevD.71.104028" class="a-1">PRD 71 (2005) 104028</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-th/0503171" class="a-1">hep-th/0503171</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Koch:2005ks -->
+	    <tr>
+	    <td class="num" id="Reference_45"><b>45</b></td>
+	    <td class="authors">B. Koch, M. Bleicher, and S. Hossenfelder</td>
+	    <td class="reftitle">Black hole remnants at the LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1126-6708/2005/10/053" class="a-1">JHEP 10 (2005) 053</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/0507138" class="a-1">hep-ph/0507138</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Stoecker:2006we -->
+	    <tr>
+	    <td class="num" id="Reference_46"><b>46</b></td>
+	    <td class="authors">H. Stoecker</td>
+	    <td class="reftitle">Stable TeV - black hole remnants at the LHC: Discovery through di-jet suppression, mono-jet emission and a supersonic boom in the quark-gluon plasma</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1142/S0218271807009930" class="a-1">Int. J. Mod. Phys. D 16 (2007) 185</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ph/0605062" class="a-1">hep-ph/0605062</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Scardigli:2008jn -->
+	    <tr>
+	    <td class="num" id="Reference_47"><b>47</b></td>
+	    <td class="authors">F. Scardigli</td>
+	    <td class="reftitle">Glimpses on the micro black hole Planck phase</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.3390/sym12091519" class="a-1">Symmetry 12 (2020) 1519</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0809.1832" class="a-1">0809.1832</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Gingrich:2008di -->
+	    <tr>
+	    <td class="num" id="Reference_48"><b>48</b></td>
+	    <td class="authors">D. M. Gingrich and K. Martell</td>
+	    <td class="reftitle">Study of highly-excited string states at the Large Hadron Collider</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.78.115009" class="a-1">PRD 78 (2008) 115009</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/0808.2512" class="a-1">0808.2512</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2019csb -->
+	    <tr>
+	    <td class="num" id="Reference_49"><b>49</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Extraction and validation of a new set of CMS PYTHIA8 tunes from underlying-event measurements</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1140/epjc/s10052-019-7499-4" class="a-1">EPJC 80 (2020) 4</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/GEN-17-001/index.html" class="a-1"><b>CMS-GEN-17-001</b></a><br><a href="http://www.arXiv.org/abs/1903.12179" class="a-1">1903.12179</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- NNPDF:2017mvq -->
+	    <tr>
+	    <td class="num" id="Reference_50"><b>50</b></td>
+	    <td class="authors">NNPDF Collaboration</td>
+	    <td class="reftitle">Parton distributions from high-precision collider data</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1140/epjc/s10052-017-5199-5" class="a-1">EPJC 77 (2017) 663</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1706.00428" class="a-1">1706.00428</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Lange:2159066 -->
+	    <tr>
+	    <td class="num" id="Reference_51"><b>51</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Upgrades for the CMS simulation</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1742-6596/608/1/012056" class="a-1">J. Phys. Conf. Ser. 608 (2015) 012056</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2017yfk -->
+	    <tr>
+	    <td class="num" id="Reference_52"><b>52</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Particle-flow reconstruction and global event description with the CMS detector</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/12/10/P10003" class="a-1">JINST 12 (2017) P10003</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/PRF-14-001/index.html" class="a-1"><b>CMS-PRF-14-001</b></a><br><a href="http://www.arXiv.org/abs/1706.04965" class="a-1">1706.04965</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS-TDR-15-02 -->
+	    <tr>
+	    <td class="num" id="Reference_53"><b>53</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Technical proposal for the Phase-II upgrade of the Compact Muon Solenoid</td>
+	    <td class="reference">CMS Technical Proposal CERN-LHCC-2015-010, CMS-TDR-15-02, CMS, 2015<br><a href="http://cds.cern.ch/record/2020886" class="a-1">CDS</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2016lmd -->
+	    <tr>
+	    <td class="num" id="Reference_54"><b>54</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Jet energy scale and resolution in the CMS experiment in pp collisions at 8 TeV</td>
+	    <td class="reference">no. 02, P0, 2017<br><a href="http://dx.doi.org/10.1088/1748-0221/12/02/P02014" class="a-1">JINST 12 (2017) </a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/JME-13-004/index.html" class="a-1"><b>CMS-JME-13-004</b></a><br><a href="http://www.arXiv.org/abs/1607.03663" class="a-1">1607.03663</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS-PAS-JME-14-001 -->
+	    <tr>
+	    <td class="num" id="Reference_55"><b>55</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Pileup removal algorithms</td>
+	    <td class="reference">CMS Physics Analysis Summary, CMS, 2014<br><a href="http://cds.cern.ch/record/1751454" class="a-1">CMS-PAS-JME-14-001</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../preliminary-results/JME-14-001/index.html" class="a-1"><b>CMS-PAS-JME-14-001</b></a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2017wyc -->
+	    <tr>
+	    <td class="num" id="Reference_56"><b>56</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Jet algorithms performance in 13 TeV data</td>
+	    <td class="reference">CMS Physics Analysis Summary, CMS, 2017<br><a href="https://cds.cern.ch/record/2256875/" class="a-1">link</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../preliminary-results/JME-16-003/index.html" class="a-1"><b>CMS-PAS-JME-16-003</b></a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2015xaf -->
+	    <tr>
+	    <td class="num" id="Reference_57"><b>57</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Performance of electron reconstruction and selection with the CMS detector in proton-proton collisions at $\sqrt{s}$ = 8 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/10/06/P06005" class="a-1">JINST 10 (2015) P06005</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/EGM-13-001/index.html" class="a-1"><b>CMS-EGM-13-001</b></a><br><a href="http://www.arXiv.org/abs/1502.02701" class="a-1">1502.02701</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2020uim -->
+	    <tr>
+	    <td class="num" id="Reference_58"><b>58</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Electron and photon reconstruction and identification with the CMS experiment at the CERN LHC</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/16/05/P05014" class="a-1">JINST 16 (2021) P05014</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/EGM-17-001/index.html" class="a-1"><b>CMS-EGM-17-001</b></a><br><a href="http://www.arXiv.org/abs/2012.06888" class="a-1">2012.06888</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2012nsv -->
+	    <tr>
+	    <td class="num" id="Reference_59"><b>59</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Performance of CMS muon reconstruction in pp collision events at $ \sqrt{s}= $ 7 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/7/10/P10002" class="a-1">JINST 7 (2012) P10002</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/MUO-10-004/index.html" class="a-1"><b>CMS-MUO-10-004</b></a><br><a href="http://www.arXiv.org/abs/1206.4071" class="a-1">1206.4071</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2018rym -->
+	    <tr>
+	    <td class="num" id="Reference_60"><b>60</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Performance of the CMS muon detector and muon reconstruction with proton-proton collisions at $ \sqrt{s}= $ 13 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/13/06/P06015" class="a-1">JINST 13 (2018) P06015</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/MUO-16-001/index.html" class="a-1"><b>CMS-MUO-16-001</b></a><br><a href="http://www.arXiv.org/abs/1804.04528" class="a-1">1804.04528</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2019ctu -->
+	    <tr>
+	    <td class="num" id="Reference_61"><b>61</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Performance of missing transverse momentum reconstruction in proton-proton collisions at $ \sqrt{s} = $ 13 TeV using the CMS detector</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/14/07/P07004" class="a-1">JINST 14 (2019) P07004</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/JME-17-001/index.html" class="a-1"><b>CMS-JME-17-001</b></a><br><a href="http://www.arXiv.org/abs/1903.06078" class="a-1">1903.06078</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- ALEPH:1996oqp -->
+	    <tr>
+	    <td class="num" id="Reference_62"><b>62</b></td>
+	    <td class="authors">ALEPH Collaboration</td>
+	    <td class="reftitle">Studies of quantum chromodynamics with the ALEPH detector</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/S0370-1573(97)00045-8" class="a-1">Phys. Rept. 294 (1998) 1</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- ATLAS:2012tch -->
+	    <tr>
+	    <td class="num" id="Reference_63"><b>63</b></td>
+	    <td class="authors"><a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic" style="color: blue"><b>ATLAS Collaboration</b></a></td>
+	    <td class="reftitle">Measurement of event shapes at large momentum transfer with the ATLAS detector in pp collisions at $ \sqrt{s}= $ 7 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1140/epjc/s10052-012-2211-y" class="a-1">EPJC 72 (2012) 2211</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1206.2135" class="a-1">1206.2135</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- ALICE:2012cor -->
+	    <tr>
+	    <td class="num" id="Reference_64"><b>64</b></td>
+	    <td class="authors"><a href="https://alice-publications.web.cern.ch/publications" style="color: blue"><b>ALICE Collaboration</b></a></td>
+	    <td class="reftitle">Transverse sphericity of primary charged particles in minimum bias proton-proton collisions at $ \sqrt{s}= $ 0.9, 2.76 and 7 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1140/epjc/s10052-012-2124-9" class="a-1">EPJC 72 (2012) 2124</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1205.3963" class="a-1">1205.3963</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- OT_paper -->
+	    <tr>
+	    <td class="num" id="Reference_65"><b>65</b></td>
+	    <td class="authors">P. T. Komiske, E. M. Metodiev, and J. Thaler</td>
+	    <td class="reftitle">Metric space of collider events</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevLett.123.041801" class="a-1">PRL 123 (2019) 041801</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1902.02346" class="a-1">1902.02346</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- OT_geometry -->
+	    <tr>
+	    <td class="num" id="Reference_66"><b>66</b></td>
+	    <td class="authors">P. T. Komiske, E. M. Metodiev, and J. Thaler</td>
+	    <td class="reftitle">The hidden geometry of particle collisions</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP07(2020)006" class="a-1">JHEP 07 (2020) 006</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2004.04159" class="a-1">2004.04159</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- OT_linear -->
+	    <tr>
+	    <td class="num" id="Reference_67"><b>67</b></td>
+	    <td class="authors">T. Cai, J. Cheng, K. Craig, and N. Craig</td>
+	    <td class="reftitle">Which metric on the space of collider events?</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.105.076003" class="a-1">PRD 105 (2022) 076003</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2111.03670" class="a-1">2111.03670</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Komiske:2019jim -->
+	    <tr>
+	    <td class="num" id="Reference_68"><b>68</b></td>
+	    <td class="authors">P. T. Komiske et al.</td>
+	    <td class="reftitle">Exploring the space of jets with CMS open data</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.101.034009" class="a-1">PRD 101 (2020) 034009</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1908.08542" class="a-1">1908.08542</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Cesarotti:2020hwb -->
+	    <tr>
+	    <td class="num" id="Reference_69"><b>69</b></td>
+	    <td class="authors">C. Cesarotti and J. Thaler</td>
+	    <td class="reftitle">A robust measure of event isotropy at colliders</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP08(2020)084" class="a-1">JHEP 08 (2020) 084</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2004.06125" class="a-1">2004.06125</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Cesarotti:2020ngq -->
+	    <tr>
+	    <td class="num" id="Reference_70"><b>70</b></td>
+	    <td class="authors">C. Cesarotti, M. Reece, and M. J. Strassler</td>
+	    <td class="reftitle">The efficacy of event isotropy as an event shape observable</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP07(2021)215" class="a-1">JHEP 07 (2021) 215</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2011.06599" class="a-1">2011.06599</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Gouskos:2022gjg -->
+	    <tr>
+	    <td class="num" id="Reference_71"><b>71</b></td>
+	    <td class="authors">L. Gouskos et al.</td>
+	    <td class="reftitle">Optimal transport for a novel event description at hadron colliders</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.108.096003" class="a-1">PRD 108 (2023) 096003</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2211.02029" class="a-1">2211.02029</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- ATLAS:2023mny -->
+	    <tr>
+	    <td class="num" id="Reference_72"><b>72</b></td>
+	    <td class="authors"><a href="https://twiki.cern.ch/twiki/bin/view/AtlasPublic" style="color: blue"><b>ATLAS Collaboration</b></a></td>
+	    <td class="reftitle">Measurements of multijet event isotropies using optimal transport with the ATLAS detector</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP10(2023)060" class="a-1">JHEP 10 (2023) 060</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2305.16930" class="a-1">2305.16930</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Larkoski:2020thc -->
+	    <tr>
+	    <td class="num" id="Reference_73"><b>73</b></td>
+	    <td class="authors">A. J. Larkoski and T. Melia</td>
+	    <td class="reftitle">Covariantizing phase space</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1103/PhysRevD.102.094014" class="a-1">PRD 102 (2020) 094014</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2008.06508" class="a-1">2008.06508</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Cai:2024xnt -->
+	    <tr>
+	    <td class="num" id="Reference_74"><b>74</b></td>
+	    <td class="authors">T. Cai et al.</td>
+	    <td class="reftitle">The phase space distance between collider events</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP09(2024)054" class="a-1">JHEP 09 (2024) 054</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/2405.16698" class="a-1">2405.16698</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Cortes:1995hrp -->
+	    <tr>
+	    <td class="num" id="Reference_75"><b>75</b></td>
+	    <td class="authors">C. Cortes and V. Vapnik</td>
+	    <td class="reftitle">Support-vector networks</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/BF00994018" class="a-1">Mach. Learn. 20 (1995) 273</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Punzi:2003bu -->
+	    <tr>
+	    <td class="num" id="Reference_76"><b>76</b></td>
+	    <td class="authors">G. Punzi</td>
+	    <td class="reftitle">Sensitivity of searches for new signals and its optimization</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.48550/arXiv.physics/0308063" class="a-1">Conf 030908 (2003) MODT002</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/physics/0308063" class="a-1">physics/0308063</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CorcodilosPhD -->
+	    <tr>
+	    <td class="num" id="Reference_77"><b>77</b></td>
+	    <td class="authors">L. Corcodilos</td>
+	    <td class="reftitle">The 2D Alphabet background modeling method and its use in the search for an excited bottom quark</td>
+	    <td class="reference">PhD thesis, Johns Hopkins University, 2021<br><a href="https://inspirehep.net/files/3fa88b8f863dbca4f2c4957534d3a034" class="a-1">link</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- WileyChi2 -->
+	    <tr>
+	    <td class="num" id="Reference_78"><b>78</b></td>
+	    <td class="authors">R. A. Fisher</td>
+	    <td class="reftitle">On the interpretation of $ \chi^2 $ from contingency tables, and the calculation of p</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.2307/2340521" class="a-1">J. Roy. Stat. Soc. 85 (1922) 87</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- BAKER1984437 -->
+	    <tr>
+	    <td class="num" id="Reference_79"><b>79</b></td>
+	    <td class="authors">S. Baker and R. D. Cousins</td>
+	    <td class="reftitle">Clarification of the use of chi-square and likelihood functions in fits to histograms</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/0167-5087(84)90016-4" class="a-1">NIM 221 (1984) 437</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- PAS-LUM-20-001 -->
+	    <tr>
+	    <td class="num" id="Reference_80"><b>80</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Precision luminosity measurement in proton-proton collisions at $ \sqrt{s} = $ 13 TeV with the CMS detector</td>
+	    <td class="reference"><a href="http://cds.cern.ch/record/2940794" class="a-1">CMS-PAS-LUM-20-001</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../preliminary-results/LUM-20-001/index.html" class="a-1"><b>CMS-PAS-LUM-20-001</b></a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2018mlc -->
+	    <tr>
+	    <td class="num" id="Reference_81"><b>81</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Measurement of the inelastic proton-proton cross section at $ \sqrt{s}= $ 13 TeV</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/JHEP07(2018)161" class="a-1">JHEP 07 (2018) 161</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/FSQ-15-005/index.html" class="a-1"><b>CMS-FSQ-15-005</b></a><br><a href="http://www.arXiv.org/abs/1802.02613" class="a-1">1802.02613</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2020poo -->
+	    <tr>
+	    <td class="num" id="Reference_82"><b>82</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Identification of heavy, energetic, hadronically decaying particles using machine-learning techniques</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/15/06/P06005" class="a-1">JINST 15 (2020) P06005</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/JME-18-002/index.html" class="a-1"><b>CMS-JME-18-002</b></a><br><a href="http://www.arXiv.org/abs/2004.08262" class="a-1">2004.08262</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2020ebo -->
+	    <tr>
+	    <td class="num" id="Reference_83"><b>83</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">Pileup mitigation at CMS in 13 TeV data</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/1748-0221/15/09/P09018" class="a-1">JINST 15 (2020) P09018</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/JME-18-001/index.html" class="a-1"><b>CMS-JME-18-001</b></a><br><a href="http://www.arXiv.org/abs/2003.00503" class="a-1">2003.00503</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS:2024onh -->
+	    <tr>
+	    <td class="num" id="Reference_84"><b>84</b></td>
+	    <td class="authors"><a href="../../publications/index.html" style="color: red"><b>CMS Collaboration</b></a></td>
+	    <td class="reftitle">The CMS statistical analysis and combination tool: Combine</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1007/s41781-024-00121-4" class="a-1">Comput. Softw. Big Sci. 8 (2024) 19</a></a></td>
+	    <td class="cadi"><a style="color: red"; href="../../publications/CAT-23-001/index.html" class="a-1"><b>CMS-CAT-23-001</b></a><br><a href="http://www.arXiv.org/abs/2404.06614" class="a-1">2404.06614</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Verkerke:2003ir -->
+	    <tr>
+	    <td class="num" id="Reference_85"><b>85</b></td>
+	    <td class="authors">W. Verkerke and D. Kirkby</td>
+	    <td class="reftitle">The RooFit toolkit for data modeling</td>
+	    <td class="reference">in the Int. Conf. on Computing in High Energy and Nuclear Physics (CHEP ): La Jolla CA, United States, March 24--28,, 2003<br><a href="https://www.slac.stanford.edu/econf/C0303241/proc/papers/MOLT007.PDF" class="a-1">Proc. 1 (2003) 3</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/physics/0306116" class="a-1">physics/0306116</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Moneta:2010pm -->
+	    <tr>
+	    <td class="num" id="Reference_86"><b>86</b></td>
+	    <td class="authors">L. Moneta et al.</td>
+	    <td class="reftitle">The RooStats project</td>
+	    <td class="reference">in the Int. Workshop on Advanced Computing and Analysis Techniques in Physics Research (ACAT ): Jaipur, India, February 22--27,, 2010<br><a href="http://dx.doi.org/10.22323/1.093.0057" class="a-1">Proc. 1 (2010) 3</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1009.1003" class="a-1">1009.1003</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Junk:1999kv -->
+	    <tr>
+	    <td class="num" id="Reference_87"><b>87</b></td>
+	    <td class="authors">T. Junk</td>
+	    <td class="reftitle">Confidence level computation for combining searches with small statistics</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1016/S0168-9002(99)00498-2" class="a-1">NIM A 434 (1999) 435</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/hep-ex/9902006" class="a-1">hep-ex/9902006</a></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Read:2002hq -->
+	    <tr>
+	    <td class="num" id="Reference_88"><b>88</b></td>
+	    <td class="authors">A. L. Read</td>
+	    <td class="reftitle">Presentation of search results: The $ CL_s $ technique</td>
+	    <td class="reference"><a href="http://dx.doi.org/10.1088/0954-3899/28/10/313" class="a-1">JPG 28 (2002) 2693</a></a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- CMS-NOTE-2011-005 -->
+	    <tr>
+	    <td class="num" id="Reference_89"><b>89</b></td>
+	    <td class="authors">ATLAS, CMS, LHC Higgs Combination Group Collaboration</td>
+	    <td class="reftitle">Procedure for the LHC Higgs boson search combination in Summer 2011</td>
+	    <td class="reference">Technical Report CMS-NOTE-2011-005, ATL-PHYS-PUB-2011-11, CERN, 2011</a></td>
+	    <td class="cadi"></td>
+	    </tr>
+	    <!-- END -->
+	<!-- BEGIN -- Cowan:2010js -->
+	    <tr>
+	    <td class="num" id="Reference_90"><b>90</b></td>
+	    <td class="authors">G. Cowan, K. Cranmer, E. Gross, and O. Vitells</td>
+	    <td class="reftitle">Asymptotic formulae for likelihood-based tests of new physics</td>
+	    <td class="reference">[Erratum: doi:10.1140/epjc/s2-013-2501-z, 2011]<br><a href="http://dx.doi.org/10.1140/epjc/s10052-011-1554-0" class="a-1">EPJC 71 (2011) 1554</a></a></td>
+	    <td class="cadi"><a href="http://www.arXiv.org/abs/1007.1727" class="a-1">1007.1727</a></td>
+	    </tr>
+	    <!-- END -->
+</tr>   </tr>
+</table>
+</div>
+
+      <div id="publi"> 
+
+      <table>
+	<tr> 
+	  <td style="text-align: right;">
+	    <img src="../../figures/cmsLogo_image.jpg" style="width:80px"/>
+	  </td>
+	  <td style="text-align: center; text-color=Gray;  font-weight:bold; font-size:large; color: Gray;  font-family:Trebuchet MS;">
+	    Compact Muon Solenoid <br /> LHC, CERN
+	  </td>
+	  <td style="text-align: left;">
+	    <img src="../../figures/CERN-logo.jpg" style="width:80px" />
+	  </td>
+	</tr> 
+      </table>	
+      
+    </div>
+
+
+    <div id="banner" style="border-left-width: 100px; border-left-color: black; background-color: #cc0000; text-align:right">
+      <span style=" margin-right: 10px; color: white; font-family:Arial">
+	&copy; Copyright <a style="color: white" href="http://copyright.cern.ch/">CERN 2024</a> for the benefit of the CMS Collaboration
+      </span>
+    </div>
+    
+    <div style="background-color: silver; height: 80px; text-align:center;">
+      
+      <table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto; height: 80px;" border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+	  <tr>
+	    <td style="background-color: SlateGray; text-align: center;"><img style="height:80px;" alt="" src="../../figures/cortada_higgs-zz.jpg" align="middle" />
+	    </td>
+	    <td style="background-color: SlateGray; text-align: center;"><img style="height:80px;" alt="" src="../../figures/cortada_higgs-gg.jpg" align="middle" />
+	    </td>
+	    <td style="background-color: SlateGray; text-align: center;"><img style="height:80px;" alt="" src="../../figures/cortada_higgs-bb.jpg" align="middle" />
+	    </td>
+	    <td style="background-color: SlateGray; text-align: center;"><img style="height:80px;" alt="" src="../../figures/cortada_higgs-tt.jpg" align="middle" />
+	    </td>
+	    <td style="background-color: SlateGray; text-align: center;"><img style="height:80px;" alt="" src="../../figures/cortada_higgs-ww.jpg" align="middle" />
+	    </td>
+	  </tr>
+	</tbody>
+      </table>
+      
+    </div>
+    
+  </body>  
+  
+</html>

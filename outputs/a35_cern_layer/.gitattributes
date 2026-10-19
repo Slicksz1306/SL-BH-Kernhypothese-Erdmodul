@@ -1,0 +1,9 @@
+# Original evidence bytes are not editable text; never normalize their EOLs.
+**/raw/* -diff -text
+collider-dependency-audit.json -text
+schemas/benchmark.schema.json -text
+schemas/constraint.schema.json -text
+schemas/dataset.schema.json -text
+schemas/observable.schema.json -text
+schemas/snapshot.schema.json -text
+schemas/source.schema.json -text

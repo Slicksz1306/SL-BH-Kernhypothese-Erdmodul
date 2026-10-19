@@ -1,0 +1,73 @@
+{
+  "foundation_files_unchanged": [
+    "dependency-lock.txt",
+    "pyproject.toml",
+    "README.md",
+    "schemas/common.schema.json",
+    "sl_constraints/__init__.py",
+    "tests/fixtures.py",
+    "tests/test_contracts_units.py",
+    "tests/test_ledger.py",
+    "tests/test_local_integration.py",
+    "tests/test_material.py",
+    "tests/test_provenance.py",
+    "tests/test_readiness_boundaries.py",
+    "tests/test_review_guards.py",
+    "tests/test_wire_and_domain.py",
+    "sl_constraints/a35/ledger.py",
+    "sl_constraints/a35/material.py",
+    "sl_constraints/a35/readiness.py",
+    "sl_constraints/a35/__init__.py",
+    "sl_constraints/common/numerics.py",
+    "sl_constraints/common/provenance.py",
+    "sl_constraints/common/schema.py",
+    "sl_constraints/common/types.py",
+    "sl_constraints/common/units.py",
+    "sl_constraints/common/__init__.py"
+  ],
+  "source_count": 6,
+  "raw_hashes_verified": 9,
+  "syntax_files_checked": 36,
+  "schema_exports_checked": [
+    "constraint",
+    "benchmark",
+    "dataset",
+    "observable",
+    "source",
+    "snapshot"
+  ],
+  "constraints": 262,
+  "observed_nonnull": 12,
+  "expected_nonnull": 9,
+  "comparison_groups_nonnull": 0,
+  "source_relationships_resolved": true,
+  "hepdata_rechecks": {
+    "atlas_hepdata_recheck": {
+      "http_status": 403,
+      "sha256": "b4db6bccbf672f5a11f0606ec7da754762d74fae9ccad564d4a6d180a83992e7"
+    },
+    "cms_hepdata_recheck": {
+      "http_status": 403,
+      "sha256": "a7b4e8e75aaf8cf20c40511ebb5177ce7363172afcc7d4fb882ef2af74a8d4c0"
+    }
+  },
+  "cms_aux_active_csv_links": 0,
+  "research_reference_hashes": {
+    "STAGE3_95B_A35_WDM_CHARGE_CLOSURE_SPEC.md": "131cfc48301dd5e8ee6a93a346e35f0345212e8c831e6712d5e291ca70f57df5",
+    "STAGE3_95C_A35_WDM_THEORETICAL_CLOSURE_ARCHITECTURE.md": "3877c7dbf7a40bb436f93e769f7e2dc5dfcae08c555430e4587cc2f83fd20985",
+    "STAGE3_95J_A35_PHYSICAL_CLOSURE_NUMERICAL_INVENTORY.md": "a320727e02bef7c2c4994460843b7e0439c178856be6bbd981627bda299c85dd",
+    "data/stage3_95k/a35_acquisition_jobs.json": "91038f26f251f60cecea2f9dd515620cd51fcd3c7669d634ee17837c2eef8e20"
+  },
+  "snapshot_status": "FROZEN_PARTIAL",
+  "manifest_file_sha256": "bbc4b1580a3556fc2c4e7adce7c3429127bbe86d7e05f5d118032f221d8b0190",
+  "artifact_count": 332,
+  "declared_scope_exact_match": true,
+  "whitespace_check": {
+    "status": "PASS",
+    "method": "git diff --no-index --check; raw binary; CRLF allowed",
+    "exit_code": 1,
+    "stdout": "",
+    "stderr": ""
+  },
+  "code_manifest": "CERN_CODE_MANIFEST.json"
+}
